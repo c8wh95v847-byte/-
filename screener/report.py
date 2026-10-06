@@ -29,7 +29,7 @@ def _price_fmt(currency: str):
 
 def _money_fmt(currency: str):
     def f(v):
-        return ("¥" if currency == "JPY" else "$") + _compact(v)
+        return ("¥" if currency == "JPY" else "$") + _compact(v, currency)
     return f
 
 
@@ -49,7 +49,7 @@ def _fin_table(f: dict | None, currency: str) -> dict | None:
     rows = [("売上高", "revenue"), ("営業利益", "operating_income"), ("純利益", "net_income"),
             ("営業CF", "operating_cf"), ("総資産", "total_assets"), ("自己資本", "equity")]
     return {"source": f.get("source", ""), "years": [y[:7] for y in f["fiscal_years"]],
-            "rows": [(label, [_compact(v) for v in f.get(key) or []]) for label, key in rows]}
+            "rows": [(label, [_compact(v, currency) for v in f.get(key) or []]) for label, key in rows]}
 
 
 def _history_entry(r: dict, by_code: dict) -> dict:

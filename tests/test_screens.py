@@ -86,3 +86,27 @@ def test_fake_provider_is_deterministic():
     a = FakePriceProvider("JP", end="2026-01-05").get_history(["7203"], 200)["7203"]
     b = FakePriceProvider("JP", end="2026-01-05").get_history(["7203"], 200)["7203"]
     pd.testing.assert_frame_equal(a, b)
+
+
+def test_roe_negative_equity_fails():
+    checks, m = evaluate_long(_fund(equity=[-5, 2, 80, 70]), LONG)
+    roe = {c.key: c for c in checks}["roe"]
+    assert roe.passed is False and m["roe_pct"] is None
+
+
+def test_compact_units():
+    from screener.screens import _compact
+    assert _compact(1.5e12) == "1.50兆" and _compact(3.45e10) == "345億"
+    assert _compact(1.23e10, "USD") == "12.3B" and _compact(4.5e8, "USD") == "450.0M"
+
+
+def test_drop_incomplete_bar():
+    from datetime import datetime, timezone
+    from screener.pipeline import drop_incomplete_bar
+    idx = pd.bdate_range(end="2026-10-06", periods=3)
+    df = pd.DataFrame({"Close": [1.0, 2.0, 3.0]}, index=idx)
+    mc = {"timezone": "Asia/Tokyo", "close_time": "15:30", "settle_minutes": 30}
+    during = datetime(2026, 10, 6, 1, 0, tzinfo=timezone.utc)   # 10:00 JST
+    after = datetime(2026, 10, 6, 7, 30, tzinfo=timezone.utc)   # 16:30 JST
+    assert drop_incomplete_bar({"X": df}, mc, during)["X"].index[-1] == pd.Timestamp("2026-10-05")
+    assert drop_incomplete_bar({"X": df}, mc, after)["X"].index[-1] == pd.Timestamp("2026-10-06")

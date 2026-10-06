@@ -6,6 +6,8 @@ data/universe/*.csv（列: code,name）を正とし、`python -m screener.univer
 from __future__ import annotations
 
 import csv
+import re
+import unicodedata
 import io
 import logging
 import sys
@@ -21,9 +23,16 @@ SOURCES = {
 }
 
 
+def clean_name(name: str) -> str:
+    """全角英数を半角に、「（株）」などの法人格表記を除去。"""
+    name = unicodedata.normalize("NFKC", str(name)).strip()
+    name = re.sub(r"\((株|有|合)\)|株式会社", "", name)
+    return re.sub(r"\s+", " ", name).strip()
+
+
 def load_universe(path: str | Path, limit: int | None = None) -> list[dict]:
     with open(path, encoding="utf-8") as f:
-        rows = [r for r in csv.DictReader(f) if r.get("code")]
+        rows = [{**r, "name": clean_name(r.get("name", ""))} for r in csv.DictReader(f) if r.get("code")]
     return rows[:limit] if limit else rows
 
 
@@ -56,7 +65,7 @@ def fetch_nikkei225() -> list[dict]:
         for code, name in zip(t[code_col], t[name_col]):
             code = str(code).strip().split(".")[0]
             if len(code) == 4:
-                rows.append({"code": code, "name": str(name).strip()})
+                rows.append({"code": code, "name": clean_name(name)})
     return rows
 
 

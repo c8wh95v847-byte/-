@@ -109,7 +109,7 @@ def _at(xs: list, i: int):
     return _num(xs[i]) if xs and i < len(xs) else None
 
 
-def evaluate_long(f: Fundamentals, conds: dict) -> tuple[list[Check], dict]:
+def evaluate_long(f: Fundamentals, conds: dict, currency: str = "JPY") -> tuple[list[Check], dict]:
     checks: list[Check] = []
     m: dict = {"fiscal_year": f.fiscal_years[0] if f.fiscal_years else None}
 
@@ -117,11 +117,16 @@ def evaluate_long(f: Fundamentals, conds: dict) -> tuple[list[Check], dict]:
     if c.get("enabled", True):
         mn = c.get("min_pct", 8.0)
         ni, e0, e1 = _at(f.net_income, 0), _at(f.equity, 0), _at(f.equity, 1)
-        avg_eq = (e0 + e1) / 2 if e0 is not None and e1 is not None else e0
-        roe = None if ni is None or not avg_eq or avg_eq <= 0 else ni / avg_eq * 100
-        m["roe_pct"] = roe
-        checks.append(Check("roe", "ROE", None if roe is None else roe >= mn,
-                            _f(roe, 1, "%"), f"≥ {mn:g}%"))
+        if ni is not None and e0 is not None and e0 <= 0:
+            # 債務超過（自己資本マイナス）では ROE が意味をなさないので不通過扱い
+            m["roe_pct"] = None
+            checks.append(Check("roe", "ROE", False, "算出不可（自己資本がマイナス）", f"≥ {mn:g}%"))
+        else:
+            avg_eq = (e0 + e1) / 2 if e0 is not None and e1 is not None and e1 > 0 else e0
+            roe = None if ni is None or not avg_eq else ni / avg_eq * 100
+            m["roe_pct"] = roe
+            checks.append(Check("roe", "ROE", None if roe is None else roe >= mn,
+                                _f(roe, 1, "%"), f"≥ {mn:g}%"))
 
     c = conds.get("operating_cf", {})
     if c.get("enabled", True):
@@ -132,7 +137,7 @@ def evaluate_long(f: Fundamentals, conds: dict) -> tuple[list[Check], dict]:
         if ok is None and any(v is not None and v <= 0 for v in vals):
             ok = False
         checks.append(Check("operating_cf", f"営業CFが{n}期連続プラス", ok,
-                            " / ".join(_compact(v) for v in vals) + "（新→旧）", f"{n}期すべて > 0"))
+                            " / ".join(_compact(v, currency) for v in vals) + "（新→旧）", f"{n}期すべて > 0"))
 
     c = conds.get("equity_ratio", {})
     if c.get("enabled", True):
@@ -176,11 +181,16 @@ def _pct(a, b):
     return (a / b - 1) * 100 * (1 if b > 0 else -1)
 
 
-def _compact(v) -> str:
-    """大きな金額を 1.2兆 / 345億 / 12.3B のように短く表示（通貨記号なし）。"""
+def _compact(v, currency: str = "JPY") -> str:
+    """大きな金額を短く表示（通貨記号なし）。円: 1.2兆 / 345億、ドル: 12.3B / 456M。"""
     if v is None:
         return "—"
     a = abs(v)
+    if currency != "JPY":
+        for unit, d in (("T", 1e12), ("B", 1e9), ("M", 1e6), ("K", 1e3)):
+            if a >= d:
+                return f"{v / d:,.1f}{unit}"
+        return f"{v:,.0f}"
     if a >= 1e12:
         return f"{v / 1e12:.2f}兆"
     if a >= 1e8:

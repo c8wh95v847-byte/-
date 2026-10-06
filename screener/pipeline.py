@@ -5,6 +5,7 @@ import json
 import logging
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 
@@ -53,6 +54,7 @@ def run_market(cfg: dict, market: str, *, limit: int | None = None, provider_ove
     prices = make_price_provider(p_name, market).get_history(codes, mc.get("price_lookback_days", 400))
     if not prices:
         raise RuntimeError(f"[{market}] 株価を1銘柄も取得できませんでした")
+    prices = drop_incomplete_bar(prices, mc)
     as_of = max(df.index[-1] for df in prices.values())
 
     fprov = make_fundamentals_provider(f_name, market)
@@ -90,7 +92,7 @@ def run_market(cfg: dict, market: str, *, limit: int | None = None, provider_ove
                 f = Fundamentals(code=code, source=f_name)
             if not f.is_empty:
                 cache.put(code, f_name, f)
-        l_checks, l_metrics = evaluate_long(f, long_cfg["conditions"])
+        l_checks, l_metrics = evaluate_long(f, long_cfg["conditions"], mc["currency"])
         l_ok, l_passed = judge(l_checks, long_cfg["min_passed"], long_cfg.get("required", []))
 
         stocks.append({
@@ -126,6 +128,22 @@ def run_market(cfg: dict, market: str, *, limit: int | None = None, provider_ove
     log.info("[%s] as_of=%s evaluated=%d swing=%d long=%d", market, result["as_of"], len(stocks),
              len(swing_rank), len(long_rank))
     return result, prices
+
+
+def drop_incomplete_bar(prices: dict[str, pd.DataFrame], mc: dict,
+                        now: datetime | None = None) -> dict[str, pd.DataFrame]:
+    """取引時間中（大引け＋settle_minutes 前）に実行した場合、当日の未確定の足を除く。"""
+    tz = ZoneInfo(mc.get("timezone", "UTC"))
+    now = (now or datetime.now(timezone.utc)).astimezone(tz)
+    hh, mm = map(int, str(mc.get("close_time", "15:30")).split(":"))
+    settled = now.replace(hour=hh, minute=mm, second=0, microsecond=0) + timedelta(
+        minutes=mc.get("settle_minutes", 30))
+    if now >= settled:
+        return prices
+    today = pd.Timestamp(now.date())
+    out = {c: (df[df.index < today] if len(df) and df.index[-1] >= today else df) for c, df in prices.items()}
+    log.info("取引時間中のため %s の未確定足を除外しました", today.date())
+    return {c: df for c, df in out.items() if len(df)}
 
 
 def _round(d: dict) -> dict:

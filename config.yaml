@@ -22,6 +22,8 @@ markets:
     universe: data/universe/jp_nikkei225.csv
     currency: JPY
     timezone: Asia/Tokyo
+    close_time: "15:30"        # 大引け（これ＋settle_minutes 前の実行では当日足を未確定として除外）
+    settle_minutes: 30
     providers:
       price: yfinance          # yfinance | jquants | fake
       fundamentals: yfinance   # yfinance | edinet | fake
@@ -83,6 +85,8 @@ markets:
     universe: data/universe/us_sp500.csv
     currency: USD
     timezone: America/New_York
+    close_time: "16:00"
+    settle_minutes: 30
     providers:
       price: yfinance          # yfinance | fake
       fundamentals: yfinance   # yfinance | edgar | fake
