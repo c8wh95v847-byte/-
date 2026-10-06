@@ -48,8 +48,12 @@ def _fin_table(f: dict | None, currency: str) -> dict | None:
         return None
     rows = [("売上高", "revenue"), ("営業利益", "operating_income"), ("純利益", "net_income"),
             ("営業CF", "operating_cf"), ("総資産", "total_assets"), ("自己資本", "equity")]
-    return {"source": f.get("source", ""), "years": [y[:7] for y in f["fiscal_years"]],
-            "rows": [(label, [_compact(v, currency) for v in f.get(key) or []]) for label, key in rows]}
+    # 全項目が欠損している期は表示しない
+    keep = [i for i in range(len(f["fiscal_years"]))
+            if any((f.get(k) or [None] * (i + 1))[i] is not None for _l, k in rows)]
+    return {"source": f.get("source", ""), "years": [f["fiscal_years"][i][:7] for i in keep],
+            "rows": [(label, [_compact((f.get(key) or [None] * len(f["fiscal_years"]))[i], currency)
+                              for i in keep]) for label, key in rows]}
 
 
 def _history_entry(r: dict, by_code: dict) -> dict:
