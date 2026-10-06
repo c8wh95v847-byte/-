@@ -1,0 +1,39 @@
+{% extends "base.html.j2" %}
+{% from "_checks.html.j2" import checks_table %}
+{% block title %}{{ r.market_name }} {{ r.as_of }} | 株式スクリーナー{% endblock %}
+{% block body %}
+<header class="top">
+  <h1>{{ r.market_name }}</h1>
+  <span class="sub">{{ r.as_of }} 終値ベース</span>
+</header>
+<nav class="markets">
+{% for m in nav %}<a href="{{ root }}{{ m.dir }}/" class="{{ 'on' if m.market == r.market }}">{{ m.short }}</a>{% endfor %}
+</nav>
+<div class="tabs">
+  <input type="radio" name="tab" id="tab-swing" checked><label for="tab-swing">スイング {{ r.swing_total }}</label>
+  <input type="radio" name="tab" id="tab-long"><label for="tab-long">長期 {{ r.long_total }}</label>
+{% for kind, codes in [('swing', r.swing), ('long', r.long)] %}
+  <section class="panel panel-{{ kind }}">
+    <details class="criteria">
+      <summary>抽出条件（{{ crit[kind].min_passed }}つ以上{% if crit[kind].required %}・{{ crit[kind].required_labels }}は必須{% endif %}）</summary>
+      <ul>{% for c in crit[kind].lines %}<li>{{ c }}</li>{% endfor %}</ul>
+      {% if kind == 'swing' %}<div>流動性: 20日平均売買代金 {{ crit.turnover }} 以上</div>{% endif %}
+    </details>
+    {% for code in codes %}{% set s = by_code[code] %}{% set e = s[kind] %}
+    <article class="card">
+      <div class="head">
+        <span class="rank">{{ loop.index }}</span>
+        <a class="name" href="stocks/{{ s.code|replace('.', '-') }}.html">{{ s.name }}<span class="code">{{ s.code }}</span></a>
+        <span class="score">{{ e.passed }}/{{ e.total }}</span>
+      </div>
+      <div class="price">{{ fmt_price(s.close) }} <span class="chg {{ 'up' if s.change_pct > 0 else ('down' if s.change_pct < 0) }}">{{ '%+.2f'|format(s.change_pct) }}%</span></div>
+      {{ checks_table(e.checks) }}
+    </article>
+    {% else %}
+    <p class="empty">本日の候補はありません。</p>
+    {% endfor %}
+  </section>
+{% endfor %}
+</div>
+<p class="sub" style="margin-top:16px"><a href="history.html">過去の抽出結果</a> ・ <a href="latest.json">JSON</a> ・ <a href="{{ root }}">トップ</a></p>
+{% endblock %}

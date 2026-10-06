@@ -1,0 +1,14 @@
+{% extends "base.html.j2" %}
+{% block title %}株式スクリーナー{% endblock %}
+{% block body %}
+<header class="top"><h1>株式スクリーナー</h1></header>
+<p class="sub">日本株・米国株のスイング／長期候補を毎日自動抽出しています。</p>
+{% for m in markets %}
+<a class="card" href="{{ m.dir }}/" style="display:block">
+  <div class="head"><span class="name">{{ m.market_name }}</span><span class="score">{{ m.as_of }}</span></div>
+  <div class="price">スイング候補 {{ m.swing_total }} 件 ／ 長期候補 {{ m.long_total }} 件 ／ 評価 {{ m.evaluated }} 銘柄</div>
+</a>
+{% else %}
+<p class="empty">まだ結果がありません。</p>
+{% endfor %}
+{% endblock %}

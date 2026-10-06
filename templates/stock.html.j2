@@ -1,0 +1,34 @@
+{% extends "base.html.j2" %}
+{% from "_checks.html.j2" import checks_table %}
+{% block title %}{{ s.name }}（{{ s.code }}）| 株式スクリーナー{% endblock %}
+{% block body %}
+<div class="crumbs"><a href="{{ root }}">トップ</a> › <a href="../">{{ r.market_name }}</a></div>
+<header class="top">
+  <h1>{{ s.name }}<span class="code">{{ s.code }}</span></h1>
+</header>
+<div class="price">{{ r.as_of }} 終値 {{ fmt_price(s.close) }} <span class="chg {{ 'up' if s.change_pct > 0 else ('down' if s.change_pct < 0) }}">{{ '%+.2f'|format(s.change_pct) }}%</span> ・ 20日平均売買代金 {{ fmt_money(s.avg_turnover) }}</div>
+
+<div class="chart-box">
+  <div class="legend">{% for l in chart.legend %}<span><i style="background:{{ l.color }}"></i>{{ l.label }}</span>{% endfor %}</div>
+  {{ chart.svg|safe }}
+  <div class="tip" role="status"></div>
+  <script type="application/json">{{ chart.data|safe }}</script>
+</div>
+
+<h2>スイング判定 <span class="verdict {{ 'ok' if s.swing.candidate else 'ng' }}">{{ '候補' if s.swing.candidate else '対象外' }}（{{ s.swing.passed }}/{{ s.swing.total }}）</span></h2>
+<div class="card">{{ checks_table(s.swing.checks) }}</div>
+
+<h2>長期判定 <span class="verdict {{ 'ok' if s.long.candidate else 'ng' }}">{{ '候補' if s.long.candidate else '対象外' }}（{{ s.long.passed }}/{{ s.long.total }}）</span></h2>
+<div class="card">{{ checks_table(s.long.checks) }}</div>
+
+{% if fin %}
+<h2>年次財務（{{ fin.source }}）</h2>
+<div class="tbl-scroll"><table class="fin">
+  <thead><tr><th>決算期</th>{% for y in fin.years %}<th>{{ y }}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for label, row in fin.rows %}<tr><td>{{ label }}</td>{% for v in row %}<td>{{ v }}</td>{% endfor %}</tr>{% endfor %}
+  </tbody>
+</table></div>
+{% endif %}
+{% endblock %}
+{% block scripts %}<script src="{{ root }}assets/chart.js"></script>{% endblock %}

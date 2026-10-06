@@ -1,0 +1,140 @@
+# =====================================================================
+# 株式スクリーナー設定
+#   - enabled_markets: 実行対象の市場（CLIの --market で個別指定も可）
+#   - markets.<JP|US>: 市場ごとのユニバース・データソース・閾値
+# =====================================================================
+
+enabled_markets: [JP, US]
+
+output:
+  dir: docs                 # GitHub Pages の公開ディレクトリ
+  chart_days: 120           # 銘柄チャートに表示する営業日数
+  top_n: 30                 # ランキングに表示する最大件数（スイング/長期それぞれ）
+  history_days: 90          # 履歴ページに表示する日数（JSONはすべてコミットして残す）
+
+cache:
+  dir: data/cache
+  fundamentals_max_age_days: 7   # 財務データはこの日数ごとに再取得
+
+markets:
+  JP:
+    name: 日本株（日経225）
+    universe: data/universe/jp_nikkei225.csv
+    currency: JPY
+    timezone: Asia/Tokyo
+    providers:
+      price: yfinance          # yfinance | jquants | fake
+      fundamentals: yfinance   # yfinance | edinet | fake
+    limit: null                # 銘柄数の上限（null = 全銘柄）
+    price_lookback_days: 400   # 取得する株価の暦日数（75日線＋ブレイク判定に十分な期間）
+
+    liquidity:
+      min_avg_turnover: 1.0e+9   # 20日平均売買代金（円）の下限
+
+    swing:
+      min_passed: 4            # 有効な条件のうち、この数以上を満たした銘柄を候補とする
+      required: [trend]        # 必須条件（満たさない銘柄は除外）
+      conditions:
+        trend:                 # 終値 > 25日線 > 75日線（上昇トレンドの並び）
+          enabled: true
+          short: 25
+          long: 75
+        ma_slope:              # 25日線が N 日前より上向き
+          enabled: true
+          period: 25
+          lookback: 5
+        deviation:             # 25日線からの乖離率が上限以下（過熱しすぎを除外）
+          enabled: true
+          period: 25
+          max_pct: 8.0
+        volume_surge:          # 当日出来高 / 20日平均出来高
+          enabled: true
+          avg_period: 20
+          min_ratio: 1.5
+        rsi:                   # RSI(14) が範囲内
+          enabled: true
+          period: 14
+          min: 50
+          max: 70
+        breakout:              # 終値が直近 N 日（当日除く）の高値を上抜け
+          enabled: true
+          lookback: 20
+
+    long:
+      min_passed: 4
+      required: []
+      conditions:
+        roe:                   # ROE（%）= 当期純利益 / 平均自己資本
+          enabled: true
+          min_pct: 8.0
+        operating_cf:          # 営業CFが直近 N 期連続でプラス
+          enabled: true
+          years: 3
+        equity_ratio:          # 自己資本比率（%）
+          enabled: true
+          min_pct: 40.0
+        growth:                # 増収増益（売上高・営業利益）が N 期連続
+          enabled: true
+          years: 2
+          metric: operating_income   # operating_income | net_income
+
+  US:
+    name: 米国株（S&P500）
+    universe: data/universe/us_sp500.csv
+    currency: USD
+    timezone: America/New_York
+    providers:
+      price: yfinance          # yfinance | fake
+      fundamentals: yfinance   # yfinance | edgar | fake
+    limit: null
+    price_lookback_days: 400
+
+    liquidity:
+      min_avg_turnover: 5.0e+7   # 20日平均売買代金（ドル）の下限
+
+    swing:
+      min_passed: 4
+      required: [trend]
+      conditions:
+        trend:
+          enabled: true
+          short: 25
+          long: 75
+        ma_slope:
+          enabled: true
+          period: 25
+          lookback: 5
+        deviation:
+          enabled: true
+          period: 25
+          max_pct: 10.0
+        volume_surge:
+          enabled: true
+          avg_period: 20
+          min_ratio: 1.5
+        rsi:
+          enabled: true
+          period: 14
+          min: 50
+          max: 72
+        breakout:
+          enabled: true
+          lookback: 20
+
+    long:
+      min_passed: 4
+      required: []
+      conditions:
+        roe:
+          enabled: true
+          min_pct: 15.0
+        operating_cf:
+          enabled: true
+          years: 3
+        equity_ratio:          # 米国は自社株買いで自己資本が薄くなりやすいため低め
+          enabled: true
+          min_pct: 25.0
+        growth:
+          enabled: true
+          years: 2
+          metric: operating_income

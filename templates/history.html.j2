@@ -1,0 +1,13 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ market_name }} 履歴 | 株式スクリーナー{% endblock %}
+{% block body %}
+<div class="crumbs"><a href="{{ root }}">トップ</a> › <a href="./">{{ market_name }}</a></div>
+<header class="top"><h1>{{ market_name }} の履歴</h1></header>
+<ul class="hist">
+{% for h in items %}
+<li><b>{{ h.as_of }}</b> <a href="history/{{ h.as_of }}.json">JSON</a><br>
+スイング: {{ h.swing|join('、') or '—' }}<br>
+長期: {{ h.long|join('、') or '—' }}</li>
+{% else %}<li>履歴はまだありません。</li>{% endfor %}
+</ul>
+{% endblock %}

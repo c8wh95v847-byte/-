@@ -1,0 +1,58 @@
+# 共通処理（市場ごとのワークフローから呼び出される）
+name: screen (reusable)
+
+on:
+  workflow_call:
+    inputs:
+      market:
+        required: true
+        type: string
+      limit:
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: screener-commit      # JP と US が同時に push しないよう直列化
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Refresh universe (失敗しても既存リストで続行)
+        continue-on-error: true
+        run: python -m screener.universe ${{ inputs.market }}
+
+      - name: Screen
+        run: |
+          ARGS="--market ${{ inputs.market }}"
+          if [ -n "${{ inputs.limit }}" ]; then ARGS="$ARGS --limit ${{ inputs.limit }}"; fi
+          python -m screener $ARGS
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs data
+          if git diff --cached --quiet; then
+            echo "No changes"; exit 0
+          fi
+          M=$(echo "${{ inputs.market }}" | tr 'A-Z' 'a-z')
+          AS_OF=$(python -c "import json;print(json.load(open('docs/$M/latest.json'))['as_of'])")
+          git commit -m "screen(${{ inputs.market }}): ${AS_OF}"
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((2 ** i))
+          done
+          exit 1

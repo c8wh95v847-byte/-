@@ -1,0 +1,22 @@
+name: screen US
+
+on:
+  schedule:
+    # 米国の引け（16:00 ET = 20:00/21:00 UTC）後、日本時間の翌朝 7:23（火〜土）に実行
+    - cron: "23 22 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "銘柄数の上限（空欄 = config.yaml の設定）"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    uses: ./.github/workflows/_screen.yml
+    with:
+      market: US
+      limit: ${{ github.event.inputs.limit || '' }}

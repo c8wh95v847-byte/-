@@ -1,0 +1,22 @@
+name: screen JP
+
+on:
+  schedule:
+    # 平日 16:17 JST（東証の大引け 15:30 以降、データ反映待ちを含めて実行）
+    - cron: "17 7 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "銘柄数の上限（空欄 = config.yaml の設定）"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    uses: ./.github/workflows/_screen.yml
+    with:
+      market: JP
+      limit: ${{ github.event.inputs.limit || '' }}

@@ -1,0 +1,12 @@
+{% macro checks_table(checks) -%}
+<table class="checks">
+{%- for c in checks %}
+<tr class="{{ 'pass' if c.passed else ('na' if c.passed is none else 'fail') }}">
+  <td class="st" aria-label="{{ '通過' if c.passed else ('判定不能' if c.passed is none else '不通過') }}">{{ '✓' if c.passed else ('–' if c.passed is none else '✗') }}</td>
+  <td class="lab">{{ c.label }}</td>
+  <td>{{ c.value }}</td>
+  <td class="th">{{ c.threshold }}</td>
+</tr>
+{%- endfor %}
+</table>
+{%- endmacro %}
