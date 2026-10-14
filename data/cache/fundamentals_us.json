@@ -46,7 +46,7 @@
 10532000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AAPL": {
@@ -96,7 +96,7 @@
 352755000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ABBV": {
@@ -146,7 +146,7 @@
 138805000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ABNB": {
@@ -203,7 +203,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ABT": {
@@ -260,7 +260,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ACGL": {
@@ -317,7 +317,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ACN": {
@@ -367,7 +367,7 @@ null
 47263390000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ADBE": {
@@ -417,7 +417,7 @@ null
 27165000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ADI": {
@@ -474,7 +474,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ADM": {
@@ -531,7 +531,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ADP": {
@@ -588,7 +588,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ADSK": {
@@ -645,7 +645,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AEE": {
@@ -702,7 +702,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AEP": {
@@ -759,7 +759,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AES": {
@@ -816,7 +816,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AFL": {
@@ -866,7 +866,7 @@ null
 131738000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AIG": {
@@ -923,7 +923,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AIZ": {
@@ -980,7 +980,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AJG": {
@@ -1037,7 +1037,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AKAM": {
@@ -1087,7 +1087,7 @@ null
 8303400000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ALB": {
@@ -1137,7 +1137,7 @@ null
 15456522000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ALGN": {
@@ -1194,7 +1194,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ALL": {
@@ -1251,7 +1251,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ALLE": {
@@ -1308,7 +1308,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AMAT": {
@@ -1365,7 +1365,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AMCR": {
@@ -1422,7 +1422,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AMD": {
@@ -1479,7 +1479,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AME": {
@@ -1529,7 +1529,7 @@ null
 12431120000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AMGN": {
@@ -1586,7 +1586,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AMP": {
@@ -1643,7 +1643,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AMT": {
@@ -1700,7 +1700,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AMZN": {
@@ -1750,7 +1750,7 @@ null
 462675000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ANET": {
@@ -1800,7 +1800,7 @@ null
 6775410000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AON": {
@@ -1857,7 +1857,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AOS": {
@@ -1907,7 +1907,7 @@ null
 3332300000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "APA": {
@@ -1964,7 +1964,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "APD": {
@@ -2014,7 +2014,7 @@ null
 27192600000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "APH": {
@@ -2071,7 +2071,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "APO": {
@@ -2128,7 +2128,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "APP": {
@@ -2185,7 +2185,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "APTV": {
@@ -2242,7 +2242,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ARE": {
@@ -2299,7 +2299,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ARES": {
@@ -2356,7 +2356,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ATO": {
@@ -2406,7 +2406,7 @@ null
 22192989000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AVGO": {
@@ -2463,7 +2463,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AVY": {
@@ -2520,7 +2520,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AWK": {
@@ -2577,7 +2577,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AXON": {
@@ -2634,7 +2634,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AXP": {
@@ -2691,7 +2691,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "AZO": {
@@ -2741,7 +2741,7 @@ null
 15275043000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BA": {
@@ -2791,7 +2791,7 @@ null
 137100000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BAC": {
@@ -2848,7 +2848,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BALL": {
@@ -2905,7 +2905,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BAX": {
@@ -2962,7 +2962,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BBY": {
@@ -3012,7 +3012,7 @@ null
 15803000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BDX": {
@@ -3062,7 +3062,7 @@ null
 52934000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BE": {
@@ -3119,7 +3119,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BEN": {
@@ -3169,7 +3169,7 @@ null
 28060600000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BF.B": {
@@ -3219,7 +3219,7 @@ null
 7777000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BG": {
@@ -3276,7 +3276,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BIIB": {
@@ -3333,7 +3333,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BKNG": {
@@ -3390,7 +3390,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BKR": {
@@ -3447,7 +3447,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BLK": {
@@ -3497,7 +3497,7 @@ null
 117628000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BMY": {
@@ -3554,7 +3554,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BNY": {
@@ -3611,7 +3611,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BR": {
@@ -3661,7 +3661,7 @@ null
 8233200000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BRK.B": {
@@ -3718,7 +3718,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BRO": {
@@ -3768,7 +3768,7 @@ null
 13973500000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BSX": {
@@ -3825,7 +3825,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BX": {
@@ -3875,7 +3875,7 @@ null
 42524227000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "BXP": {
@@ -3932,7 +3932,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "C": {
@@ -3982,7 +3982,7 @@ null
 2416676000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CAH": {
@@ -4039,7 +4039,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CARR": {
@@ -4096,7 +4096,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CASY": {
@@ -4146,7 +4146,7 @@ null
 5943270000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CAT": {
@@ -4203,7 +4203,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CB": {
@@ -4260,7 +4260,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CBOE": {
@@ -4317,7 +4317,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CBRE": {
@@ -4374,7 +4374,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CCI": {
@@ -4431,7 +4431,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CCL": {
@@ -4488,7 +4488,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CDNS": {
@@ -4538,7 +4538,7 @@ null
 5137071000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CDW": {
@@ -4595,7 +4595,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CEG": {
@@ -4652,7 +4652,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CF": {
@@ -4709,7 +4709,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CFG": {
@@ -4766,7 +4766,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CHD": {
@@ -4816,7 +4816,7 @@ null
 8345600000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CHRW": {
@@ -4866,7 +4866,7 @@ null
 5954564000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CHTR": {
@@ -4923,7 +4923,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CI": {
@@ -4980,7 +4980,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CIEN": {
@@ -5037,7 +5037,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CINF": {
@@ -5087,7 +5087,7 @@ null
 29732000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CL": {
@@ -5144,7 +5144,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CLX": {
@@ -5201,7 +5201,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CMCSA": {
@@ -5258,7 +5258,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CME": {
@@ -5315,7 +5315,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CMG": {
@@ -5372,7 +5372,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CMI": {
@@ -5429,7 +5429,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CMS": {
@@ -5486,7 +5486,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CNC": {
@@ -5543,7 +5543,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CNP": {
@@ -5600,7 +5600,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "COF": {
@@ -5650,7 +5650,7 @@ null
 455249000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "COHR": {
@@ -5700,7 +5700,7 @@ null
 13711133000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "COIN": {
@@ -5757,7 +5757,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "COO": {
@@ -5814,7 +5814,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "COP": {
@@ -5871,7 +5871,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "COR": {
@@ -5921,7 +5921,7 @@ null
 56560616000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "COST": {
@@ -5971,7 +5971,7 @@ null
 64166000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CPAY": {
@@ -6028,7 +6028,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CPRT": {
@@ -6078,7 +6078,7 @@ null
 5308864000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CPT": {
@@ -6135,7 +6135,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CRH": {
@@ -6192,7 +6192,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CRL": {
@@ -6242,7 +6242,7 @@ null
 7602770000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CRM": {
@@ -6299,7 +6299,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CRWD": {
@@ -6349,7 +6349,7 @@ null
 5026540000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CSCO": {
@@ -6406,7 +6406,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CSGP": {
@@ -6463,7 +6463,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CSX": {
@@ -6520,7 +6520,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CTAS": {
@@ -6577,7 +6577,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CTSH": {
@@ -6627,7 +6627,7 @@ null
 17852000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CTVA": {
@@ -6734,7 +6734,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CVS": {
@@ -6791,7 +6791,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "CVX": {
@@ -6841,7 +6841,7 @@ null
 257709000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "D": {
@@ -6898,7 +6898,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DAL": {
@@ -6955,7 +6955,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DASH": {
@@ -7012,7 +7012,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DD": {
@@ -7069,7 +7069,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DDOG": {
@@ -7119,7 +7119,7 @@ null
 3004852000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DE": {
@@ -7176,7 +7176,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DECK": {
@@ -7226,7 +7226,7 @@ null
 2556203000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DELL": {
@@ -7283,7 +7283,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DG": {
@@ -7333,7 +7333,7 @@ null
 29083367000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DGX": {
@@ -7390,7 +7390,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DHI": {
@@ -7440,7 +7440,7 @@ null
 30351100000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DHR": {
@@ -7497,7 +7497,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DIS": {
@@ -7547,7 +7547,7 @@ null
 203631000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DLR": {
@@ -7604,7 +7604,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DLTR": {
@@ -7661,7 +7661,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DOC": {
@@ -7718,7 +7718,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DOV": {
@@ -7775,7 +7775,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DOW": {
@@ -7832,7 +7832,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DPZ": {
@@ -7889,7 +7889,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DRI": {
@@ -7939,7 +7939,7 @@ null
 10241500000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DTE": {
@@ -7996,7 +7996,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DUK": {
@@ -8046,7 +8046,7 @@ null
 178086000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DVA": {
@@ -8103,7 +8103,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DVN": {
@@ -8160,7 +8160,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "DXCM": {
@@ -8217,7 +8217,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EBAY": {
@@ -8267,7 +8267,7 @@ null
 20850000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ECHO": {
@@ -8324,7 +8324,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ECL": {
@@ -8381,7 +8381,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ED": {
@@ -8438,7 +8438,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EFX": {
@@ -8488,7 +8488,7 @@ null
 11547900000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EG": {
@@ -8545,7 +8545,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EIX": {
@@ -8602,7 +8602,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EL": {
@@ -8652,7 +8652,7 @@ null
 23415000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ELV": {
@@ -8709,7 +8709,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EME": {
@@ -8766,7 +8766,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EMR": {
@@ -8816,7 +8816,7 @@ null
 35672000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EOG": {
@@ -8873,7 +8873,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EQIX": {
@@ -8930,7 +8930,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EQT": {
@@ -8987,7 +8987,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ERIE": {
@@ -9044,7 +9044,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ES": {
@@ -9101,7 +9101,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ESS": {
@@ -9158,7 +9158,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ETN": {
@@ -9215,7 +9215,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ETR": {
@@ -9272,7 +9272,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EVRG": {
@@ -9329,7 +9329,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EW": {
@@ -9386,7 +9386,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EXC": {
@@ -9443,7 +9443,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EXE": {
@@ -9493,7 +9493,7 @@ null
 15468000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EXPD": {
@@ -9550,7 +9550,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EXPE": {
@@ -9607,7 +9607,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "EXR": {
@@ -9664,7 +9664,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "F": {
@@ -9721,7 +9721,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FANG": {
@@ -9778,7 +9778,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FAST": {
@@ -9828,7 +9828,7 @@ null
 4548600000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FCX": {
@@ -9885,7 +9885,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FDS": {
@@ -9935,7 +9935,7 @@ null
 4014305000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FDX": {
@@ -9992,7 +9992,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FDXF": {
@@ -10042,7 +10042,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FE": {
@@ -10099,7 +10099,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FERG": {
@@ -10156,7 +10156,7 @@ null,
 15661000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FFIV": {
@@ -10206,7 +10206,7 @@ null,
 5276194000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FICO": {
@@ -10256,7 +10256,7 @@ null,
 1442034000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FIS": {
@@ -10313,7 +10313,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FISV": {
@@ -10363,7 +10363,7 @@ null
 83869000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FITB": {
@@ -10420,7 +10420,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FIX": {
@@ -10470,7 +10470,7 @@ null
 2597478000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FLEX": {
@@ -10527,7 +10527,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FOX": {
@@ -10584,7 +10584,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FOXA": {
@@ -10641,7 +10641,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FRT": {
@@ -10698,7 +10698,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FSLR": {
@@ -10755,7 +10755,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FTNT": {
@@ -10812,7 +10812,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "FTV": {
@@ -10869,7 +10869,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GD": {
@@ -10919,7 +10919,7 @@ null
 51585000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GDDY": {
@@ -10976,7 +10976,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GE": {
@@ -11033,7 +11033,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GEHC": {
@@ -11090,7 +11090,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GEN": {
@@ -11147,7 +11147,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GEV": {
@@ -11204,7 +11204,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GILD": {
@@ -11254,7 +11254,7 @@ null
 63171000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GIS": {
@@ -11304,7 +11304,7 @@ null
 31451700000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GL": {
@@ -11361,7 +11361,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GLW": {
@@ -11418,7 +11418,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GM": {
@@ -11468,7 +11468,7 @@ null
 264037000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GNRC": {
@@ -11525,7 +11525,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GOOG": {
@@ -11575,7 +11575,7 @@ null
 365264000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GOOGL": {
@@ -11625,7 +11625,7 @@ null
 365264000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GPC": {
@@ -11682,7 +11682,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GPN": {
@@ -11732,7 +11732,7 @@ null
 44809014000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GRMN": {
@@ -11789,7 +11789,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GS": {
@@ -11839,7 +11839,7 @@ null
 1441799000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "GWW": {
@@ -11889,7 +11889,7 @@ null
 7588000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HAL": {
@@ -11946,7 +11946,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HAS": {
@@ -12003,7 +12003,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HBAN": {
@@ -12060,7 +12060,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HCA": {
@@ -12117,7 +12117,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HD": {
@@ -12174,7 +12174,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HIG": {
@@ -12224,7 +12224,7 @@ null
 73008000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HII": {
@@ -12281,7 +12281,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HLT": {
@@ -12338,7 +12338,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HON": {
@@ -12395,7 +12395,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HONA": {
@@ -12495,7 +12495,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HPE": {
@@ -12552,7 +12552,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HPQ": {
@@ -12609,7 +12609,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HRL": {
@@ -12666,7 +12666,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HSIC": {
@@ -12723,7 +12723,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HST": {
@@ -12780,7 +12780,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HSY": {
@@ -12837,7 +12837,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HUBB": {
@@ -12894,7 +12894,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HUM": {
@@ -12944,7 +12944,7 @@ null
 43055000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "HWM": {
@@ -13001,7 +13001,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IBKR": {
@@ -13058,7 +13058,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IBM": {
@@ -13115,7 +13115,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ICE": {
@@ -13165,7 +13165,7 @@ null
 194338000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IDXX": {
@@ -13222,7 +13222,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IEX": {
@@ -13272,7 +13272,7 @@ null
 5511900000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IFF": {
@@ -13322,7 +13322,7 @@ null
 35522000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ILMN": {
@@ -13379,7 +13379,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "INCY": {
@@ -13436,7 +13436,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "INTC": {
@@ -13486,7 +13486,7 @@ null
 182103000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "INTU": {
@@ -13543,7 +13543,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "INVH": {
@@ -13593,7 +13593,7 @@ null
 18536708000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IP": {
@@ -13650,7 +13650,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IQV": {
@@ -13707,7 +13707,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IR": {
@@ -13764,7 +13764,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IRM": {
@@ -13821,7 +13821,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ISRG": {
@@ -13871,7 +13871,7 @@ null
 12974000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IT": {
@@ -13928,7 +13928,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ITW": {
@@ -13978,7 +13978,7 @@ null
 15422000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "IVZ": {
@@ -14035,7 +14035,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "J": {
@@ -14085,7 +14085,7 @@ null
 14660419000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "JBHT": {
@@ -14142,7 +14142,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "JBL": {
@@ -14192,7 +14192,7 @@ null
 19717000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "JCI": {
@@ -14242,7 +14242,7 @@ null
 42158000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "JKHY": {
@@ -14292,7 +14292,7 @@ null
 2773826000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "JNJ": {
@@ -14349,7 +14349,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "JPM": {
@@ -14399,7 +14399,7 @@ null
 3665743000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KDP": {
@@ -14456,7 +14456,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KEY": {
@@ -14513,7 +14513,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KEYS": {
@@ -14563,7 +14563,7 @@ null
 8098000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KHC": {
@@ -14620,7 +14620,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KIM": {
@@ -14677,7 +14677,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KKR": {
@@ -14734,7 +14734,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KLAC": {
@@ -14784,7 +14784,7 @@ null
 14072357000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KMB": {
@@ -14834,7 +14834,7 @@ null
 17970000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KMI": {
@@ -14891,7 +14891,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KO": {
@@ -14948,7 +14948,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KR": {
@@ -15005,7 +15005,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "KVUE": {
@@ -15062,7 +15062,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "L": {
@@ -15119,7 +15119,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LDOS": {
@@ -15176,7 +15176,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LEN": {
@@ -15233,7 +15233,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LH": {
@@ -15283,7 +15283,7 @@ null
 20155100000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LHX": {
@@ -15340,7 +15340,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LII": {
@@ -15397,7 +15397,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LIN": {
@@ -15454,7 +15454,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LITE": {
@@ -15511,7 +15511,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LLY": {
@@ -15568,7 +15568,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LMT": {
@@ -15625,7 +15625,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LNT": {
@@ -15682,7 +15682,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LOW": {
@@ -15739,7 +15739,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LRCX": {
@@ -15789,7 +15789,7 @@ null
 18781643000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LULU": {
@@ -15846,7 +15846,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LUV": {
@@ -15903,7 +15903,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LVS": {
@@ -15960,7 +15960,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LYB": {
@@ -16010,7 +16010,7 @@ null
 36365000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "LYV": {
@@ -16067,7 +16067,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MA": {
@@ -16117,7 +16117,7 @@ null
 38724000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MAA": {
@@ -16167,7 +16167,7 @@ null
 11241165000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MAR": {
@@ -16224,7 +16224,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MAS": {
@@ -16281,7 +16281,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MCD": {
@@ -16331,7 +16331,7 @@ null
 50435600000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MCHP": {
@@ -16381,7 +16381,7 @@ null
 16370300000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MCK": {
@@ -16438,7 +16438,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MCO": {
@@ -16495,7 +16495,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MDLZ": {
@@ -16552,7 +16552,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MDT": {
@@ -16602,7 +16602,7 @@ null
 90948000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MET": {
@@ -16659,7 +16659,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "META": {
@@ -16716,7 +16716,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MGM": {
@@ -16773,7 +16773,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MKC": {
@@ -16830,7 +16830,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MLM": {
@@ -16887,7 +16887,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MMM": {
@@ -16944,7 +16944,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MNST": {
@@ -17001,7 +17001,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MO": {
@@ -17058,7 +17058,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MOS": {
@@ -17115,7 +17115,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MPC": {
@@ -17172,7 +17172,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MPWR": {
@@ -17229,7 +17229,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MRK": {
@@ -17286,7 +17286,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MRNA": {
@@ -17336,7 +17336,7 @@ null
 25858000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MRSH": {
@@ -17393,7 +17393,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MRVL": {
@@ -17450,7 +17450,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MS": {
@@ -17507,7 +17507,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MSCI": {
@@ -17564,7 +17564,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MSFT": {
@@ -17614,7 +17614,7 @@ null
 411976000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MSI": {
@@ -17671,7 +17671,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MTB": {
@@ -17728,7 +17728,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MTD": {
@@ -17778,7 +17778,7 @@ null
 3492395000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "MU": {
@@ -17828,7 +17828,7 @@ null
 66283000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NCLH": {
@@ -17885,7 +17885,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NDAQ": {
@@ -17942,7 +17942,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NDSN": {
@@ -17999,7 +17999,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NEE": {
@@ -18056,7 +18056,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NEM": {
@@ -18113,7 +18113,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NFLX": {
@@ -18170,7 +18170,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NI": {
@@ -18227,7 +18227,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NKE": {
@@ -18284,7 +18284,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NOC": {
@@ -18334,7 +18334,7 @@ null
 43755000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NOW": {
@@ -18391,7 +18391,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NRG": {
@@ -18448,7 +18448,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NSC": {
@@ -18505,7 +18505,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NTAP": {
@@ -18562,7 +18562,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NTRS": {
@@ -18619,7 +18619,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NUE": {
@@ -18676,7 +18676,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NVDA": {
@@ -18733,7 +18733,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NVR": {
@@ -18790,7 +18790,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NWS": {
@@ -18847,7 +18847,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NWSA": {
@@ -18904,7 +18904,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "NXPI": {
@@ -18961,7 +18961,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "O": {
@@ -19018,7 +19018,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ODFL": {
@@ -19068,7 +19068,7 @@ null
 4838610000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "OKE": {
@@ -19125,7 +19125,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "OMC": {
@@ -19175,7 +19175,7 @@ null
 27002500000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ON": {
@@ -19232,7 +19232,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ORCL": {
@@ -19289,7 +19289,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ORLY": {
@@ -19339,7 +19339,7 @@ null
 12627979000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "OTIS": {
@@ -19396,7 +19396,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "OXY": {
@@ -19453,7 +19453,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "P": {
@@ -19510,7 +19510,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PANW": {
@@ -19567,7 +19567,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PAYX": {
@@ -19617,7 +19617,7 @@ null
 10546400000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PCAR": {
@@ -19674,7 +19674,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PCG": {
@@ -19731,7 +19731,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PEG": {
@@ -19788,7 +19788,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PEP": {
@@ -19845,7 +19845,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PFE": {
@@ -19902,7 +19902,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PFG": {
@@ -19952,7 +19952,7 @@ null
 290867000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PG": {
@@ -20002,7 +20002,7 @@ null
 120829000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PGR": {
@@ -20059,7 +20059,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PH": {
@@ -20116,7 +20116,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PHM": {
@@ -20173,7 +20173,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PKG": {
@@ -20230,7 +20230,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PLD": {
@@ -20287,7 +20287,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PLTR": {
@@ -20344,7 +20344,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PM": {
@@ -20401,7 +20401,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PNC": {
@@ -20451,7 +20451,7 @@ null
 557263000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PNR": {
@@ -20501,7 +20501,7 @@ null
 6447500000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PNW": {
@@ -20551,7 +20551,7 @@ null
 22723405000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PODD": {
@@ -20608,7 +20608,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PPG": {
@@ -20665,7 +20665,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PPL": {
@@ -20722,7 +20722,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PRU": {
@@ -20772,7 +20772,7 @@ null
 689029000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PSA": {
@@ -20829,7 +20829,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PSKY": {
@@ -20936,7 +20936,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PTC": {
@@ -20986,7 +20986,7 @@ null
 4687268000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PWR": {
@@ -21043,7 +21043,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "PYPL": {
@@ -21093,7 +21093,7 @@ null
 78624000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "Q": {
@@ -21143,7 +21143,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "QCOM": {
@@ -21193,7 +21193,7 @@ null
 49014000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "RCL": {
@@ -21250,7 +21250,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "RDDT": {
@@ -21300,7 +21300,7 @@ null
 1599711000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "REG": {
@@ -21350,7 +21350,7 @@ null
 10860220000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "REGN": {
@@ -21407,7 +21407,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "RF": {
@@ -21464,7 +21464,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "RJF": {
@@ -21514,7 +21514,7 @@ null
 80951000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "RL": {
@@ -21571,7 +21571,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "RMD": {
@@ -21628,7 +21628,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ROK": {
@@ -21678,7 +21678,7 @@ null
 10758700000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ROL": {
@@ -21735,7 +21735,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ROP": {
@@ -21792,7 +21792,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ROST": {
@@ -21842,7 +21842,7 @@ null
 13416463000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "RSG": {
@@ -21892,7 +21892,7 @@ null
 29052900000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "RTX": {
@@ -21949,7 +21949,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "RVTY": {
@@ -22006,7 +22006,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SBAC": {
@@ -22063,7 +22063,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SBUX": {
@@ -22113,7 +22113,7 @@ null
 27978400000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SCHW": {
@@ -22170,7 +22170,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SHW": {
@@ -22227,7 +22227,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SJM": {
@@ -22284,7 +22284,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SKYD": {
@@ -22391,7 +22391,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SMCI": {
@@ -22441,7 +22441,7 @@ null
 3674729000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SNA": {
@@ -22498,7 +22498,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SNDK": {
@@ -22548,7 +22548,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SNPS": {
@@ -22598,7 +22598,7 @@ null
 9418087000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SO": {
@@ -22655,7 +22655,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SOLV": {
@@ -22712,7 +22712,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SPG": {
@@ -22769,7 +22769,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SPGI": {
@@ -22826,7 +22826,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SRE": {
@@ -22883,7 +22883,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "STE": {
@@ -22940,7 +22940,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "STLD": {
@@ -22997,7 +22997,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "STT": {
@@ -23054,7 +23054,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "STX": {
@@ -23111,7 +23111,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "STZ": {
@@ -23168,7 +23168,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SW": {
@@ -23225,7 +23225,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SWK": {
@@ -23282,7 +23282,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SWKS": {
@@ -23332,7 +23332,7 @@ null
 8873800000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SYF": {
@@ -23382,7 +23382,7 @@ null
 104564000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SYK": {
@@ -23439,7 +23439,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "SYY": {
@@ -23489,7 +23489,7 @@ null
 22821000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "T": {
@@ -23546,7 +23546,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TDG": {
@@ -23596,7 +23596,7 @@ null
 18107000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TDY": {
@@ -23653,7 +23653,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TECH": {
@@ -23710,7 +23710,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TEL": {
@@ -23760,7 +23760,7 @@ null
 20782000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TER": {
@@ -23817,7 +23817,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TFC": {
@@ -23874,7 +23874,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TGT": {
@@ -23931,7 +23931,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TJX": {
@@ -23988,7 +23988,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TKO": {
@@ -24045,7 +24045,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TMO": {
@@ -24095,7 +24095,7 @@ null
 97154000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TMUS": {
@@ -24152,7 +24152,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TPL": {
@@ -24202,7 +24202,7 @@ null
 877427000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TPR": {
@@ -24259,7 +24259,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TRGP": {
@@ -24316,7 +24316,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TRMB": {
@@ -24373,7 +24373,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TROW": {
@@ -24430,7 +24430,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TRV": {
@@ -24480,7 +24480,7 @@ null
 115717000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TSCO": {
@@ -24537,7 +24537,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TSLA": {
@@ -24594,7 +24594,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TSN": {
@@ -24644,7 +24644,7 @@ null
 36821000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TT": {
@@ -24694,7 +24694,7 @@ null
 18081600000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TTWO": {
@@ -24751,7 +24751,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TWLO": {
@@ -24858,7 +24858,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TXT": {
@@ -24915,7 +24915,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "TYL": {
@@ -24965,7 +24965,7 @@ null
 4687417000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "UAL": {
@@ -25022,7 +25022,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "UBER": {
@@ -25079,7 +25079,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "UDR": {
@@ -25136,7 +25136,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "UHS": {
@@ -25186,7 +25186,7 @@ null
 13494188000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ULTA": {
@@ -25243,7 +25243,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "UNH": {
@@ -25300,7 +25300,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "UNP": {
@@ -25357,7 +25357,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "UPS": {
@@ -25407,7 +25407,7 @@ null
 71124000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "URI": {
@@ -25457,7 +25457,7 @@ null
 24183000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "USB": {
@@ -25507,7 +25507,7 @@ null
 674805000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "V": {
@@ -25557,7 +25557,7 @@ null
 85501000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VEEV": {
@@ -25614,7 +25614,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VICI": {
@@ -25671,7 +25671,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VLO": {
@@ -25728,7 +25728,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VLTO": {
@@ -25778,7 +25778,7 @@ null
 4825000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VMC": {
@@ -25828,7 +25828,7 @@ null
 14234600000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VMRK": {
@@ -25885,7 +25885,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VRSK": {
@@ -25942,7 +25942,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VRSN": {
@@ -25999,7 +25999,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VRT": {
@@ -26056,7 +26056,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VRTX": {
@@ -26113,7 +26113,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VST": {
@@ -26170,7 +26170,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VTR": {
@@ -26220,7 +26220,7 @@ null
 24157840000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VTRS": {
@@ -26270,7 +26270,7 @@ null
 50022200000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "VZ": {
@@ -26320,7 +26320,7 @@ null
 379680000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WAB": {
@@ -26377,7 +26377,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WAT": {
@@ -26434,7 +26434,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WBD": {
@@ -26541,7 +26541,7 @@ null
 13486000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WDC": {
@@ -26598,7 +26598,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WEC": {
@@ -26648,7 +26648,7 @@ null
 41872100000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WELL": {
@@ -26705,7 +26705,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WFC": {
@@ -26762,7 +26762,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WM": {
@@ -26819,7 +26819,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WMB": {
@@ -26876,7 +26876,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WMT": {
@@ -26933,7 +26933,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WRB": {
@@ -26990,7 +26990,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WSM": {
@@ -27047,7 +27047,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WST": {
@@ -27104,7 +27104,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WTW": {
@@ -27161,7 +27161,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WY": {
@@ -27218,7 +27218,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "WYNN": {
@@ -27275,7 +27275,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "XEL": {
@@ -27332,7 +27332,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "XOM": {
@@ -27389,7 +27389,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "XYL": {
@@ -27446,7 +27446,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "XYZ": {
@@ -27503,7 +27503,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "YUM": {
@@ -27560,7 +27560,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ZBH": {
@@ -27617,7 +27617,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ZBRA": {
@@ -27674,7 +27674,7 @@ null
 null
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 },
 "ZTS": {
@@ -27724,7 +27724,7 @@ null
 14925000000.0
 ]
 },
-"fetched": "2026-10-06",
+"fetched": "2026-10-14",
 "provider": "yfinance"
 }
 }
