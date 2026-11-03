@@ -3,7 +3,7 @@
  "market_name": "日本株（日経225）",
  "currency": "JPY",
  "as_of": "2026-11-02",
- "generated_at": "2026-11-02T08:30:36+00:00",
+ "generated_at": "2026-11-03T08:25:15+00:00",
  "providers": {
   "price": "yfinance",
   "fundamentals": "yfinance"
@@ -155,12 +155,12 @@
     "total": 6,
     "metrics": {
      "close": 11345.0,
-     "sma25": 15354.2,
-     "sma75": 17058.3778,
-     "ma_slope_pct": -5.4824,
-     "deviation_pct": -26.1114,
+     "sma25": 15353.0,
+     "sma75": 17037.8311,
+     "ma_slope_pct": -5.448,
+     "deviation_pct": -26.1056,
      "volume_ratio": 1.582,
-     "rsi": 32.2206,
+     "rsi": 32.2504,
      "prior_high": 19750.0
     },
     "checks": [
@@ -168,14 +168,14 @@
       "key": "trend",
       "label": "25/75日線の上で順行",
       "passed": false,
-      "value": "終値 11,345.0 / 25日 15,354.2 / 75日 17,058.4",
+      "value": "終値 11,345.0 / 25日 15,353.0 / 75日 17,037.8",
       "threshold": "終値 > 25日線 > 75日線"
      },
      {
       "key": "ma_slope",
       "label": "25日線が上向き",
       "passed": false,
-      "value": "5日前比 -5.48%",
+      "value": "5日前比 -5.45%",
       "threshold": "> 0%"
      },
      {
@@ -196,7 +196,7 @@
       "key": "rsi",
       "label": "RSI(14)",
       "passed": false,
-      "value": "32.2",
+      "value": "32.3",
       "threshold": "50〜70"
      },
      {
@@ -26966,12 +26966,12 @@
     "total": 6,
     "metrics": {
      "close": 1664.5,
-     "sma25": 1729.86,
-     "sma75": 1714.0135,
-     "ma_slope_pct": -0.618,
-     "deviation_pct": -3.7783,
+     "sma25": 1729.78,
+     "sma75": 1712.7003,
+     "ma_slope_pct": -0.595,
+     "deviation_pct": -3.7739,
      "volume_ratio": 2.1926,
-     "rsi": 40.5756,
+     "rsi": 40.6129,
      "prior_high": 1792.5
     },
     "checks": [
@@ -26979,14 +26979,14 @@
       "key": "trend",
       "label": "25/75日線の上で順行",
       "passed": false,
-      "value": "終値 1,664.5 / 25日 1,729.9 / 75日 1,714.0",
+      "value": "終値 1,664.5 / 25日 1,729.8 / 75日 1,712.7",
       "threshold": "終値 > 25日線 > 75日線"
      },
      {
       "key": "ma_slope",
       "label": "25日線が上向き",
       "passed": false,
-      "value": "5日前比 -0.62%",
+      "value": "5日前比 -0.60%",
       "threshold": "> 0%"
      },
      {
