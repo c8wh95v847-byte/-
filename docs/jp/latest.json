@@ -3,7 +3,7 @@
  "market_name": "日本株（日経225）",
  "currency": "JPY",
  "as_of": "2026-11-05",
- "generated_at": "2026-11-05T08:26:50+00:00",
+ "generated_at": "2026-11-06T15:05:00+00:00",
  "providers": {
   "price": "yfinance",
   "fundamentals": "yfinance"
@@ -4115,11 +4115,11 @@
     "metrics": {
      "close": 3246.0,
      "sma25": 4280.28,
-     "sma75": 4568.88,
-     "ma_slope_pct": -5.4825,
+     "sma75": 4552.9625,
+     "ma_slope_pct": -5.4003,
      "deviation_pct": -24.1638,
      "volume_ratio": 1.3685,
-     "rsi": 25.0932,
+     "rsi": 25.2348,
      "prior_high": 5486.0
     },
     "checks": [
@@ -4127,14 +4127,14 @@
       "key": "trend",
       "label": "25/75日線の上で順行",
       "passed": false,
-      "value": "終値 3,246.0 / 25日 4,280.3 / 75日 4,568.9",
+      "value": "終値 3,246.0 / 25日 4,280.3 / 75日 4,553.0",
       "threshold": "終値 > 25日線 > 75日線"
      },
      {
       "key": "ma_slope",
       "label": "25日線が上向き",
       "passed": false,
-      "value": "5日前比 -5.48%",
+      "value": "5日前比 -5.40%",
       "threshold": "> 0%"
      },
      {
@@ -4155,7 +4155,7 @@
       "key": "rsi",
       "label": "RSI(14)",
       "passed": false,
-      "value": "25.1",
+      "value": "25.2",
       "threshold": "50〜70"
      },
      {
@@ -8778,11 +8778,11 @@
     "metrics": {
      "close": 8880.0,
      "sma25": 8262.48,
-     "sma75": 8199.56,
-     "ma_slope_pct": 0.6328,
+     "sma75": 8148.8227,
+     "ma_slope_pct": 0.7851,
      "deviation_pct": 7.4738,
      "volume_ratio": 2.1422,
-     "rsi": 63.4265,
+     "rsi": 63.8161,
      "prior_high": 8890.0
     },
     "checks": [
@@ -8790,14 +8790,14 @@
       "key": "trend",
       "label": "25/75日線の上で順行",
       "passed": true,
-      "value": "終値 8,880.0 / 25日 8,262.5 / 75日 8,199.6",
+      "value": "終値 8,880.0 / 25日 8,262.5 / 75日 8,148.8",
       "threshold": "終値 > 25日線 > 75日線"
      },
      {
       "key": "ma_slope",
       "label": "25日線が上向き",
       "passed": true,
-      "value": "5日前比 0.63%",
+      "value": "5日前比 0.79%",
       "threshold": "> 0%"
      },
      {
@@ -8818,7 +8818,7 @@
       "key": "rsi",
       "label": "RSI(14)",
       "passed": true,
-      "value": "63.4",
+      "value": "63.8",
       "threshold": "50〜70"
      },
      {
@@ -20303,11 +20303,11 @@
     "metrics": {
      "close": 1605.5,
      "sma25": 1611.34,
-     "sma75": 1644.0744,
-     "ma_slope_pct": -0.0979,
+     "sma75": 1642.7339,
+     "ma_slope_pct": -0.0783,
      "deviation_pct": -0.3624,
      "volume_ratio": 2.7633,
-     "rsi": 50.3824,
+     "rsi": 50.4495,
      "prior_high": 1681.0
     },
     "checks": [
@@ -20315,14 +20315,14 @@
       "key": "trend",
       "label": "25/75日線の上で順行",
       "passed": false,
-      "value": "終値 1,605.5 / 25日 1,611.3 / 75日 1,644.1",
+      "value": "終値 1,605.5 / 25日 1,611.3 / 75日 1,642.7",
       "threshold": "終値 > 25日線 > 75日線"
      },
      {
       "key": "ma_slope",
       "label": "25日線が上向き",
       "passed": false,
-      "value": "5日前比 -0.10%",
+      "value": "5日前比 -0.08%",
       "threshold": "> 0%"
      },
      {
@@ -30109,11 +30109,11 @@
     "metrics": {
      "close": 21465.0,
      "sma25": 21183.0,
-     "sma75": 21512.5722,
-     "ma_slope_pct": 0.4441,
+     "sma75": 21509.1555,
+     "ma_slope_pct": 0.4478,
      "deviation_pct": 1.3313,
      "volume_ratio": 1.7692,
-     "rsi": 56.6724,
+     "rsi": 56.6915,
      "prior_high": 21685.0
     },
     "checks": [
@@ -30121,14 +30121,14 @@
       "key": "trend",
       "label": "25/75日線の上で順行",
       "passed": false,
-      "value": "終値 21,465.0 / 25日 21,183.0 / 75日 21,512.6",
+      "value": "終値 21,465.0 / 25日 21,183.0 / 75日 21,509.2",
       "threshold": "終値 > 25日線 > 75日線"
      },
      {
       "key": "ma_slope",
       "label": "25日線が上向き",
       "passed": true,
-      "value": "5日前比 0.44%",
+      "value": "5日前比 0.45%",
       "threshold": "> 0%"
      },
      {
@@ -34209,11 +34209,11 @@
     "metrics": {
      "close": 7038.0,
      "sma25": 7269.8,
-     "sma75": 6788.4381,
-     "ma_slope_pct": 0.3092,
+     "sma75": 6761.6826,
+     "ma_slope_pct": 0.4097,
      "deviation_pct": -3.1885,
      "volume_ratio": 2.6206,
-     "rsi": 44.7874,
+     "rsi": 44.9339,
      "prior_high": 7585.0
     },
     "checks": [
@@ -34221,14 +34221,14 @@
       "key": "trend",
       "label": "25/75日線の上で順行",
       "passed": false,
-      "value": "終値 7,038.0 / 25日 7,269.8 / 75日 6,788.4",
+      "value": "終値 7,038.0 / 25日 7,269.8 / 75日 6,761.7",
       "threshold": "終値 > 25日線 > 75日線"
      },
      {
       "key": "ma_slope",
       "label": "25日線が上向き",
       "passed": true,
-      "value": "5日前比 0.31%",
+      "value": "5日前比 0.41%",
       "threshold": "> 0%"
      },
      {
@@ -34249,7 +34249,7 @@
       "key": "rsi",
       "label": "RSI(14)",
       "passed": false,
-      "value": "44.8",
+      "value": "44.9",
       "threshold": "50〜70"
      },
      {

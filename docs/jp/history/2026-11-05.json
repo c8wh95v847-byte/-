@@ -1,7 +1,7 @@
 {
  "market": "JP",
  "as_of": "2026-11-05",
- "generated_at": "2026-11-05T08:26:50+00:00",
+ "generated_at": "2026-11-06T15:05:00+00:00",
  "providers": {
   "price": "yfinance",
   "fundamentals": "yfinance"
@@ -630,14 +630,14 @@
      "key": "trend",
      "label": "25/75日線の上で順行",
      "passed": true,
-     "value": "終値 8,880.0 / 25日 8,262.5 / 75日 8,199.6",
+     "value": "終値 8,880.0 / 25日 8,262.5 / 75日 8,148.8",
      "threshold": "終値 > 25日線 > 75日線"
     },
     {
      "key": "ma_slope",
      "label": "25日線が上向き",
      "passed": true,
-     "value": "5日前比 0.63%",
+     "value": "5日前比 0.79%",
      "threshold": "> 0%"
     },
     {
@@ -658,7 +658,7 @@
      "key": "rsi",
      "label": "RSI(14)",
      "passed": true,
-     "value": "63.4",
+     "value": "63.8",
      "threshold": "50〜70"
     },
     {
