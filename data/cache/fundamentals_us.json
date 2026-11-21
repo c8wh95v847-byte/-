@@ -19210,7 +19210,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-12",
+"fetched": "2026-11-21",
 "provider": "yfinance"
 },
 "OMC": {
@@ -24928,7 +24928,7 @@ null
 12564304000.0
 ]
 },
-"fetched": "2026-11-12",
+"fetched": "2026-11-21",
 "provider": "yfinance"
 },
 "TXN": {
