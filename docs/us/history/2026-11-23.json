@@ -1,0 +1,2653 @@
+{
+ "market": "US",
+ "as_of": "2026-11-23",
+ "generated_at": "2026-11-24T06:11:09+00:00",
+ "providers": {
+  "price": "yfinance",
+  "fundamentals": "yfinance"
+ },
+ "swing": [
+  {
+   "code": "SJM",
+   "name": "J.M. Smucker Company (The)",
+   "close": 132.78,
+   "passed": 5,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 132.8 / 25日 130.4 / 75日 124.5",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.45%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "1.9%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": true,
+     "value": "2.03倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "56.4",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 132.8 / 高値 136.3",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "CL",
+   "name": "Colgate-Palmolive",
+   "close": 97.93,
+   "passed": 5,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 97.9 / 25日 96.7 / 75日 91.3",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.33%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "1.3%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": true,
+     "value": "1.79倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "55.4",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 97.9 / 高値 101.8",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "DLTR",
+   "name": "Dollar Tree",
+   "close": 139.1,
+   "passed": 5,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 139.1 / 25日 135.0 / 75日 126.4",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 2.73%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "3.0%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": true,
+     "value": "1.69倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "55.9",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 139.1 / 高値 148.5",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "KO",
+   "name": "Coca-Cola Company (The)",
+   "close": 95.88,
+   "passed": 5,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 95.9 / 25日 95.5 / 75日 90.7",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.04%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "0.4%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": true,
+     "value": "1.56倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "53.0",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 95.9 / 高値 100.6",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "CBOE",
+   "name": "Cboe Global Markets",
+   "close": 354.67,
+   "passed": 5,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 354.7 / 25日 347.4 / 75日 307.7",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 3.30%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "2.1%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": true,
+     "value": "1.52倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "57.2",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 354.7 / 高値 379.8",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "J",
+   "name": "Jacobs Solutions",
+   "close": 157.53,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 157.5 / 25日 153.2 / 75日 146.6",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.93%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "2.8%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.49倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "57.2",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 157.5 / 高値 162.0",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "CB",
+   "name": "Chubb Limited",
+   "close": 368.67,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 368.7 / 25日 366.5 / 75日 349.0",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.01%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "0.6%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.48倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "54.2",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 368.7 / 高値 384.3",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "BDX",
+   "name": "Becton Dickinson",
+   "close": 215.44,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 215.4 / 25日 206.7 / 75日 191.4",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 2.38%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "4.2%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.46倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "66.3",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 215.4 / 高値 220.4",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "DD",
+   "name": "DuPont",
+   "close": 151.25,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 151.2 / 25日 145.7 / 75日 137.2",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 2.75%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "3.8%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.42倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "58.9",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 151.2 / 高値 159.5",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "DRI",
+   "name": "Darden Restaurants",
+   "close": 232.27,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 232.3 / 25日 224.4 / 75日 214.9",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.80%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "3.5%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.36倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "58.9",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 232.3 / 高値 240.3",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "CMS",
+   "name": "CMS Energy",
+   "close": 70.38,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 70.4 / 25日 69.4 / 75日 67.4",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 0.92%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "1.4%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.36倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "58.8",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 70.4 / 高値 71.8",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "A",
+   "name": "Agilent Technologies",
+   "close": 176.04,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 176.0 / 25日 175.4 / 75日 164.6",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 0.17%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "0.3%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.32倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "53.0",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 176.0 / 高値 183.0",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "CTAS",
+   "name": "Cintas",
+   "close": 223.68,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 223.7 / 25日 222.2 / 75日 207.9",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.00%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "0.7%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.31倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "57.0",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 223.7 / 高値 232.9",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "CHD",
+   "name": "Church & Dwight",
+   "close": 110.87,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 110.9 / 25日 109.2 / 75日 101.7",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.59%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "1.5%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.29倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "57.4",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 110.9 / 高値 115.5",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "TSLA",
+   "name": "Tesla, Inc.",
+   "close": 385.46,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 385.5 / 25日 383.5 / 75日 368.0",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 0.44%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "0.5%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.28倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "52.1",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 385.5 / 高値 414.2",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "MDT",
+   "name": "Medtronic",
+   "close": 100.72,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 100.7 / 25日 99.3 / 75日 93.5",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.39%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "1.4%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.27倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "56.1",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 100.7 / 高値 106.2",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "TSN",
+   "name": "Tyson Foods",
+   "close": 62.95,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 63.0 / 25日 59.3 / 75日 55.6",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 3.41%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "6.2%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.26倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "64.0",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 63.0 / 高値 65.8",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "TECH",
+   "name": "Bio-Techne",
+   "close": 72.8,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 72.8 / 25日 72.6 / 75日 72.4",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 0.08%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "0.2%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.25倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "59.7",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 72.8 / 高値 72.9",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "COST",
+   "name": "Costco",
+   "close": 1097.91,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 1,097.9 / 25日 1,050.0 / 75日 972.2",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 2.37%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "4.6%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.24倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "67.6",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 1,097.9 / 高値 1,123.7",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "ED",
+   "name": "Consolidated Edison",
+   "close": 118.48,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 118.5 / 25日 117.0 / 75日 109.4",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.72%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "1.3%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.23倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "58.3",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 118.5 / 高値 122.0",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "WM",
+   "name": "Waste Management",
+   "close": 240.59,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 240.6 / 25日 237.8 / 75日 223.1",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.67%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "1.2%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.23倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "58.6",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 240.6 / 高値 247.4",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "MRSH",
+   "name": "Marsh McLennan",
+   "close": 207.1,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 207.1 / 25日 202.4 / 75日 187.7",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 2.24%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "2.3%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.21倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "61.9",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 207.1 / 高値 214.0",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "KHC",
+   "name": "Kraft Heinz",
+   "close": 25.1,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 25.1 / 25日 24.7 / 75日 24.2",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.77%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "1.8%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.20倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "55.8",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 25.1 / 高値 26.3",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "VLTO",
+   "name": "Veralto",
+   "close": 117.78,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 117.8 / 25日 112.7 / 75日 102.2",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 3.10%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "4.5%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.19倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "67.2",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 117.8 / 高値 120.3",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "LYV",
+   "name": "Live Nation Entertainment",
+   "close": 180.88,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 180.9 / 25日 177.2 / 75日 175.7",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 0.89%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "2.1%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.19倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "56.3",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 180.9 / 高値 187.9",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "AAPL",
+   "name": "Apple Inc.",
+   "close": 349.08,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 349.1 / 25日 346.9 / 75日 333.0",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 0.39%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "0.6%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.18倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "52.8",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 349.1 / 高値 360.8",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "CPAY",
+   "name": "Corpay",
+   "close": 439.61,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 439.6 / 25日 429.5 / 75日 412.9",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 2.00%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "2.3%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.17倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "54.3",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 439.6 / 高値 479.5",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "NI",
+   "name": "NiSource",
+   "close": 44.99,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 45.0 / 25日 44.4 / 75日 41.9",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.45%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "1.3%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.16倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "57.5",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 45.0 / 高値 46.3",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "CAH",
+   "name": "Cardinal Health",
+   "close": 271.97,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 272.0 / 25日 264.8 / 75日 244.5",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 1.95%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "2.7%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.15倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "59.9",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 272.0 / 高値 286.3",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  },
+  {
+   "code": "HD",
+   "name": "Home Depot (The)",
+   "close": 346.06,
+   "passed": 4,
+   "total": 6,
+   "checks": [
+    {
+     "key": "trend",
+     "label": "25/75日線の上で順行",
+     "passed": true,
+     "value": "終値 346.1 / 25日 336.5 / 75日 319.8",
+     "threshold": "終値 > 25日線 > 75日線"
+    },
+    {
+     "key": "ma_slope",
+     "label": "25日線が上向き",
+     "passed": true,
+     "value": "5日前比 2.20%",
+     "threshold": "> 0%"
+    },
+    {
+     "key": "deviation",
+     "label": "25日線乖離が過熱でない",
+     "passed": true,
+     "value": "2.8%",
+     "threshold": "≤ 10%"
+    },
+    {
+     "key": "volume_surge",
+     "label": "出来高急増",
+     "passed": false,
+     "value": "1.15倍（20日平均比）",
+     "threshold": "≥ 1.5倍"
+    },
+    {
+     "key": "rsi",
+     "label": "RSI(14)",
+     "passed": true,
+     "value": "60.1",
+     "threshold": "50〜72"
+    },
+    {
+     "key": "breakout",
+     "label": "直近20日高値ブレイク",
+     "passed": false,
+     "value": "終値 346.1 / 高値 362.4",
+     "threshold": "終値 > 前日までの20日高値"
+    }
+   ]
+  }
+ ],
+ "long": [
+  {
+   "code": "APP",
+   "name": "AppLovin",
+   "close": 373.92,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "206.7%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "4.0B / 2.1B / 1.1B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "29.4%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 70.0% / 営業利益 117.3%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "AAPL",
+   "name": "Apple Inc.",
+   "close": 349.08,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "142.3%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "145.1B / 111.5B / 118.3B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "27.7%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 15.1% / 営業利益 18.8%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "NVDA",
+   "name": "Nvidia",
+   "close": 165.05,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "101.5%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "102.7B / 64.1B / 28.1B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "76.1%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 65.5% / 営業利益 60.1%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "MU",
+   "name": "Micron Technology",
+   "close": 707.7,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "88.3%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "89.7B / 17.5B / 8.5B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "70.6%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 256.3% / 営業利益 916.8%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "KLAC",
+   "name": "KLA Corporation",
+   "close": 145.85,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "87.5%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "4.1B / 4.1B / 3.3B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "35.4%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 11.7% / 営業利益 12.9%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "IDXX",
+   "name": "Idexx Laboratories",
+   "close": 687.02,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "66.2%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "1.2B / 929.0M / 906.5M（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "47.9%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 10.4% / 営業利益 20.5%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "LRCX",
+   "name": "Lam Research",
+   "close": 209.76,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "65.1%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "5.9B / 6.2B / 4.7B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "53.0%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 26.0% / 営業利益 39.0%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "MCO",
+   "name": "Moody's Corporation",
+   "close": 480.59,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "64.5%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "2.9B / 2.8B / 2.2B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "25.6%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 8.9% / 営業利益 16.3%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "V",
+   "name": "Visa Inc.",
+   "close": 409.4,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "63.0%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "23.7B / 23.1B / 19.9B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "38.3%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 14.8% / 営業利益 12.5%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "CVNA",
+   "name": "Carvana",
+   "close": 67.81,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "59.9%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "1.0B / 918.0M / 803.0M（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "26.1%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 48.6% / 営業利益 90.0%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "TJX",
+   "name": "TJX Companies",
+   "close": 139.25,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "59.1%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "6.9B / 6.1B / 6.1B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "28.5%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 7.1% / 営業利益 13.9%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "ADBE",
+   "name": "Adobe Inc.",
+   "close": 223.98,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "55.4%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "10.0B / 8.1B / 7.3B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "39.4%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 10.5% / 営業利益 12.5%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "FIX",
+   "name": "Comfort Systems USA",
+   "close": 1158.53,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "49.2%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "1.2B / 849.1M / 639.6M（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "38.0%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 29.5% / 営業利益 75.9%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "CMG",
+   "name": "Chipotle Mexican Grill",
+   "close": 36.25,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "47.4%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "2.1B / 2.1B / 1.8B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "31.5%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 5.4% / 営業利益 1.4%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "KO",
+   "name": "Coca-Cola Company (The)",
+   "close": 95.88,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "46.0%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "7.4B / 6.8B / 11.6B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "30.7%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 1.9% / 営業利益 6.3%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "NFLX",
+   "name": "Netflix",
+   "close": 58.1,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "42.8%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "10.1B / 7.4B / 7.3B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "47.9%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 15.9% / 営業利益 27.9%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "VRT",
+   "name": "Vertiv",
+   "close": 186.35,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "41.8%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "2.1B / 1.3B / 900.5M（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "32.3%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 27.7% / 営業利益 37.2%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "UBER",
+   "name": "Uber",
+   "close": 64.07,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "41.4%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "10.1B / 7.1B / 3.6B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "43.8%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 18.3% / 営業利益 98.8%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "BR",
+   "name": "Broadridge Financial Solutions",
+   "close": 181.82,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "40.9%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "1.3B / 1.2B / 1.1B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "31.8%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 8.5% / 営業利益 9.4%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "DECK",
+   "name": "Deckers Brands",
+   "close": 81.54,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "40.9%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "1.2B / 1.0B / 1.0B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "67.8%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 9.8% / 営業利益 7.1%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "CTAS",
+   "name": "Cintas",
+   "close": 223.68,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "40.6%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "2.3B / 2.2B / 2.1B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "48.8%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 8.9% / 営業利益 11.1%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "GILD",
+   "name": "Gilead Sciences",
+   "close": 170.59,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "40.5%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "10.0B / 10.8B / 8.0B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "38.5%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 2.4% / 営業利益 10.4%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "UNP",
+   "name": "Union Pacific Corporation",
+   "close": 288.89,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "40.4%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "9.3B / 9.3B / 8.4B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "26.5%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 1.1% / 営業利益 1.4%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "ALL",
+   "name": "Allstate",
+   "close": 265.28,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "39.1%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "10.1B / 8.9B / 4.2B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "25.6%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 5.6% / 営業利益 120.0%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "ROK",
+   "name": "Rockwell Automation",
+   "close": 382.47,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "39.0%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "2.0B / 1.5B / 864.0M（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "31.5%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 7.8% / 営業利益 24.3%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "ROL",
+   "name": "Rollins, Inc.",
+   "close": 38.17,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "38.9%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "678.1M / 607.7M / 528.4M（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "43.8%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 11.0% / 営業利益 10.5%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "EME",
+   "name": "Emcor",
+   "close": 649.49,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "38.5%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "1.3B / 1.4B / 899.7M（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "39.5%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 16.6% / 営業利益 16.6%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "TPL",
+   "name": "Texas Pacific Land Corporation",
+   "close": 258.07,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "37.2%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "545.9M / 490.7M / 418.3M（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "89.9%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 13.1% / 営業利益 9.8%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "MRK",
+   "name": "Merck & Co.",
+   "close": 135.47,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "36.9%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "16.5B / 21.5B / 13.0B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "38.4%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 1.3% / 営業利益 9.3%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  },
+  {
+   "code": "APH",
+   "name": "Amphenol",
+   "close": 77.41,
+   "passed": 4,
+   "total": 4,
+   "checks": [
+    {
+     "key": "roe",
+     "label": "ROE",
+     "passed": true,
+     "value": "36.8%",
+     "threshold": "≥ 15%"
+    },
+    {
+     "key": "operating_cf",
+     "label": "営業CFが3期連続プラス",
+     "passed": true,
+     "value": "5.4B / 2.8B / 2.5B（新→旧）",
+     "threshold": "3期すべて > 0"
+    },
+    {
+     "key": "equity_ratio",
+     "label": "自己資本比率",
+     "passed": true,
+     "value": "37.0%",
+     "threshold": "≥ 25%"
+    },
+    {
+     "key": "growth",
+     "label": "増収増益が2期連続",
+     "passed": true,
+     "value": "2期連続（直近 売上 51.7% / 営業利益 81.8%）",
+     "threshold": "売上・営業利益とも2期連続で前期比増"
+    }
+   ]
+  }
+ ]
+}
