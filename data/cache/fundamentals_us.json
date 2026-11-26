@@ -153,7 +153,7 @@ null
 138805000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "ABNB": {
@@ -210,7 +210,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "ABT": {
@@ -1315,7 +1315,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "AMAT": {
@@ -1429,7 +1429,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "AMD": {
@@ -1807,7 +1807,7 @@ null
 6775410000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "AON": {
@@ -1914,7 +1914,7 @@ null
 3332300000.0
 ]
 },
-"fetched": "2026-11-17",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "APA": {
@@ -2199,7 +2199,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "APTV": {
@@ -2370,7 +2370,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "ATO": {
@@ -3133,7 +3133,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "BEN": {
@@ -4110,7 +4110,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "CASY": {
@@ -4609,7 +4609,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "CEG": {
@@ -4666,7 +4666,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "CF": {
@@ -4780,7 +4780,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "CHD": {
@@ -5764,7 +5764,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "COO": {
@@ -6370,7 +6370,7 @@ null
 5026540000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "CSCO": {
@@ -6748,7 +6748,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "CVS": {
@@ -7026,7 +7026,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "DD": {
@@ -7133,7 +7133,7 @@ null
 3004852000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "DE": {
@@ -7290,7 +7290,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "DG": {
@@ -7853,7 +7853,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "DPZ": {
@@ -9521,7 +9521,7 @@ null
 15468000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "EXPD": {
@@ -9806,7 +9806,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "FAST": {
@@ -10077,7 +10077,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "FE": {
@@ -10626,7 +10626,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "FOXA": {
@@ -10683,7 +10683,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "FRT": {
@@ -10911,7 +10911,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "GD": {
@@ -11018,7 +11018,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "GE": {
@@ -11132,7 +11132,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "GEN": {
@@ -11246,7 +11246,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "GILD": {
@@ -11617,7 +11617,7 @@ null
 365264000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "GOOGL": {
@@ -12380,7 +12380,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "HON": {
@@ -12480,7 +12480,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "HOOD": {
@@ -12537,7 +12537,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "HPE": {
@@ -12587,7 +12587,7 @@ null
 57123000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "HPQ": {
@@ -12915,7 +12915,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "HUM": {
@@ -13614,7 +13614,7 @@ null
 18536708000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "IP": {
@@ -13728,7 +13728,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "IR": {
@@ -13785,7 +13785,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "IRM": {
@@ -14555,36 +14555,42 @@ null
 "data": {
 "code": "KEYS",
 "equity": [
+null,
 5881000000.0,
 5105000000.0,
 4654000000.0,
 4161000000.0
 ],
 "fiscal_years": [
+"2026-10-31",
 "2025-10-31",
 "2024-10-31",
 "2023-10-31",
 "2022-10-31"
 ],
 "net_income": [
+null,
 850000000.0,
 614000000.0,
 1057000000.0,
 1124000000.0
 ],
 "operating_cf": [
+null,
 1409000000.0,
 1052000000.0,
 1408000000.0,
 1144000000.0
 ],
 "operating_income": [
+null,
 876000000.0,
 833000000.0,
 1358000000.0,
 1334000000.0
 ],
 "revenue": [
+null,
 5375000000.0,
 4979000000.0,
 5464000000.0,
@@ -14592,13 +14598,14 @@ null
 ],
 "source": "yfinance",
 "total_assets": [
+null,
 11301000000.0,
 9269000000.0,
 8683000000.0,
 8098000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "KHC": {
@@ -14655,7 +14662,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "KIM": {
@@ -15546,7 +15553,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "LLY": {
@@ -16751,7 +16758,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "MGM": {
@@ -17371,7 +17378,7 @@ null
 25858000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "MRSH": {
@@ -17927,7 +17934,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "NDAQ": {
@@ -18426,7 +18433,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "NRG": {
@@ -18882,7 +18889,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "NWSA": {
@@ -18939,7 +18946,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "NXPI": {
@@ -19488,7 +19495,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "OXY": {
@@ -19602,7 +19609,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "PANW": {
@@ -19659,7 +19666,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "PAYX": {
@@ -20436,7 +20443,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "PM": {
@@ -21028,7 +21035,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "PTC": {
@@ -21192,7 +21199,7 @@ null
 78624000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "Q": {
@@ -21242,7 +21249,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "QCOM": {
@@ -21406,7 +21413,7 @@ null
 1599711000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "REG": {
@@ -22832,7 +22839,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "SPG": {
@@ -23345,7 +23352,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "SWK": {
@@ -23509,7 +23516,7 @@ null
 104564000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "SYK": {
@@ -25220,7 +25227,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "UDR": {
@@ -25755,7 +25762,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "VICI": {
@@ -25812,7 +25819,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "VLO": {
@@ -25919,7 +25926,7 @@ null
 4825000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "VMC": {
@@ -26197,7 +26204,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "VRTX": {
@@ -26311,7 +26318,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "VTR": {
@@ -26682,7 +26689,7 @@ null
 13486000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "WDC": {
@@ -27644,7 +27651,7 @@ null
 null
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 },
 "YUM": {
@@ -27865,7 +27872,7 @@ null
 14925000000.0
 ]
 },
-"fetched": "2026-11-18",
+"fetched": "2026-11-26",
 "provider": "yfinance"
 }
 }
