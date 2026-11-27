@@ -3,14 +3,18 @@
  "market_name": "米国株（S&P500）",
  "currency": "USD",
  "as_of": "2026-11-25",
- "generated_at": "2026-11-26T04:14:47+00:00",
+ "generated_at": "2026-11-27T04:21:31+00:00",
  "providers": {
   "price": "yfinance",
   "fundamentals": "yfinance"
  },
  "universe_size": 503,
- "evaluated": 501,
+ "evaluated": 500,
  "skipped": [
+  {
+   "code": "ADI",
+   "reason": "株価データ不足"
+  },
   {
    "code": "SNDK",
    "reason": "最終取引日が古い（2026-11-19）"
@@ -1107,7 +1111,7 @@
    "name": "Advanced Micro Devices",
    "close": 406.03,
    "change_pct": -1.75,
-   "avg_turnover": 22741256702,
+   "avg_turnover": 22747168499,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -1119,7 +1123,7 @@
      "sma75": 527.1239,
      "ma_slope_pct": -4.0752,
      "deviation_pct": -18.658,
-     "volume_ratio": 1.129,
+     "volume_ratio": 1.1354,
      "rsi": 38.0128,
      "prior_high": 594.0
     },
@@ -1149,7 +1153,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "1.13倍（20日平均比）",
+      "value": "1.14倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -3185,7 +3189,7 @@
    "name": "Alphabet Inc. (Class A)",
    "close": 273.1,
    "change_pct": -2.13,
-   "avg_turnover": 12832335566,
+   "avg_turnover": 12833963242,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -3197,7 +3201,7 @@
      "sma75": 326.0872,
      "ma_slope_pct": -4.4294,
      "deviation_pct": -6.0565,
-     "volume_ratio": 0.884,
+     "volume_ratio": 0.8865,
      "rsi": 36.9305,
      "prior_high": 326.41
     },
@@ -3227,7 +3231,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.88倍（20日平均比）",
+      "value": "0.89倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -3340,7 +3344,7 @@
    "name": "Alphabet Inc. (Class C)",
    "close": 270.98,
    "change_pct": -2.02,
-   "avg_turnover": 8425683185,
+   "avg_turnover": 8426826720,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -3352,7 +3356,7 @@
      "sma75": 323.1213,
      "ma_slope_pct": -4.3412,
      "deviation_pct": -6.045,
-     "volume_ratio": 0.9144,
+     "volume_ratio": 0.9171,
      "rsi": 36.1363,
      "prior_high": 323.13
     },
@@ -3382,7 +3386,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.91倍（20日平均比）",
+      "value": "0.92倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -3657,7 +3661,7 @@
    "name": "Amazon",
    "close": 244.43,
    "change_pct": -3.12,
-   "avg_turnover": 14136508470,
+   "avg_turnover": 14138990657,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -3669,7 +3673,7 @@
      "sma75": 256.2044,
      "ma_slope_pct": -0.5581,
      "deviation_pct": -4.5034,
-     "volume_ratio": 1.1537,
+     "volume_ratio": 1.1575,
      "rsi": 41.955,
      "prior_high": 275.34
     },
@@ -3699,7 +3703,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "1.15倍（20日平均比）",
+      "value": "1.16倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -5583,161 +5587,6 @@
    }
   },
   {
-   "code": "ADI",
-   "name": "Analog Devices",
-   "close": 333.11,
-   "change_pct": 6.44,
-   "avg_turnover": 2330087163,
-   "liquid": true,
-   "swing": {
-    "candidate": false,
-    "passed": 2,
-    "total": 6,
-    "metrics": {
-     "close": 333.11,
-     "sma25": 390.1404,
-     "sma75": 385.8828,
-     "ma_slope_pct": -2.4853,
-     "deviation_pct": -14.6179,
-     "volume_ratio": 1.5473,
-     "rsi": 38.6246,
-     "prior_high": 433.72
-    },
-    "checks": [
-     {
-      "key": "trend",
-      "label": "25/75日線の上で順行",
-      "passed": false,
-      "value": "終値 333.1 / 25日 390.1 / 75日 385.9",
-      "threshold": "終値 > 25日線 > 75日線"
-     },
-     {
-      "key": "ma_slope",
-      "label": "25日線が上向き",
-      "passed": false,
-      "value": "5日前比 -2.49%",
-      "threshold": "> 0%"
-     },
-     {
-      "key": "deviation",
-      "label": "25日線乖離が過熱でない",
-      "passed": true,
-      "value": "-14.6%",
-      "threshold": "≤ 10%"
-     },
-     {
-      "key": "volume_surge",
-      "label": "出来高急増",
-      "passed": true,
-      "value": "1.55倍（20日平均比）",
-      "threshold": "≥ 1.5倍"
-     },
-     {
-      "key": "rsi",
-      "label": "RSI(14)",
-      "passed": false,
-      "value": "38.6",
-      "threshold": "50〜72"
-     },
-     {
-      "key": "breakout",
-      "label": "直近20日高値ブレイク",
-      "passed": false,
-      "value": "終値 333.1 / 高値 433.7",
-      "threshold": "終値 > 前日までの20日高値"
-     }
-    ]
-   },
-   "long": {
-    "candidate": false,
-    "passed": 2,
-    "total": 4,
-    "metrics": {
-     "fiscal_year": "2025-10-31",
-     "roe_pct": 6.5728,
-     "operating_cf": 4812202000.0,
-     "equity_ratio_pct": 70.4602,
-     "growth_streak": 1
-    },
-    "checks": [
-     {
-      "key": "roe",
-      "label": "ROE",
-      "passed": false,
-      "value": "6.6%",
-      "threshold": "≥ 15%"
-     },
-     {
-      "key": "operating_cf",
-      "label": "営業CFが3期連続プラス",
-      "passed": true,
-      "value": "4.8B / 3.9B / 4.8B（新→旧）",
-      "threshold": "3期すべて > 0"
-     },
-     {
-      "key": "equity_ratio",
-      "label": "自己資本比率",
-      "passed": true,
-      "value": "70.5%",
-      "threshold": "≥ 25%"
-     },
-     {
-      "key": "growth",
-      "label": "増収増益が2期連続",
-      "passed": false,
-      "value": "1期連続（直近 売上 16.9% / 営業利益 45.0%）",
-      "threshold": "売上・営業利益とも2期連続で前期比増"
-     }
-    ],
-    "fundamentals": {
-     "code": "ADI",
-     "fiscal_years": [
-      "2025-10-31",
-      "2024-10-31",
-      "2023-10-31",
-      "2022-10-31"
-     ],
-     "revenue": [
-      11019707000.0,
-      9427157000.0,
-      12305539000.0,
-      12013953000.0
-     ],
-     "operating_income": [
-      3002476000.0,
-      2070056000.0,
-      3983822000.0,
-      3553209000.0
-     ],
-     "net_income": [
-      2267342000.0,
-      1635273000.0,
-      3314579000.0,
-      2748561000.0
-     ],
-     "operating_cf": [
-      4812202000.0,
-      3852529000.0,
-      4817634000.0,
-      4475402000.0
-     ],
-     "total_assets": [
-      47992712000.0,
-      48228277000.0,
-      48794478000.0,
-      50302350000.0
-     ],
-     "equity": [
-      33815755000.0,
-      35176317000.0,
-      35565122000.0,
-      36465323000.0
-     ],
-     "source": "yfinance"
-    }
-   }
-  },
-  {
    "code": "AON",
    "name": "Aon plc",
    "close": 347.49,
@@ -6228,7 +6077,7 @@
    "name": "Apple Inc.",
    "close": 355.58,
    "change_pct": 0.43,
-   "avg_turnover": 17908891161,
+   "avg_turnover": 17909694772,
    "liquid": true,
    "swing": {
     "candidate": true,
@@ -6240,7 +6089,7 @@
      "sma75": 334.3032,
      "ma_slope_pct": 0.4608,
      "deviation_pct": 2.1748,
-     "volume_ratio": 1.0716,
+     "volume_ratio": 1.0725,
      "rsi": 58.0431,
      "prior_high": 360.83
     },
@@ -6390,7 +6239,7 @@
    "name": "Applied Materials",
    "close": 311.18,
    "change_pct": -3.89,
-   "avg_turnover": 3232068993,
+   "avg_turnover": 3232358390,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -6402,7 +6251,7 @@
      "sma75": 437.4281,
      "ma_slope_pct": -4.6129,
      "deviation_pct": -14.4679,
-     "volume_ratio": 1.3083,
+     "volume_ratio": 1.3104,
      "rsi": 37.2616,
      "prior_high": 425.8783
     },
@@ -9292,7 +9141,7 @@
    "name": "Bank of America",
    "close": 48.54,
    "change_pct": -0.04,
-   "avg_turnover": 1816557250,
+   "avg_turnover": 1816583219,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -9304,7 +9153,7 @@
      "sma75": 55.409,
      "ma_slope_pct": -1.1011,
      "deviation_pct": -2.7325,
-     "volume_ratio": 1.0625,
+     "volume_ratio": 1.0628,
      "rsi": 39.1552,
      "prior_high": 53.03
     },
@@ -10884,7 +10733,7 @@
    "name": "Bloom Energy",
    "close": 152.89,
    "change_pct": -2.25,
-   "avg_turnover": 3251637653,
+   "avg_turnover": 3252853893,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -10896,7 +10745,7 @@
      "sma75": 229.4432,
      "ma_slope_pct": -7.0179,
      "deviation_pct": -19.2053,
-     "volume_ratio": 1.0406,
+     "volume_ratio": 1.0496,
      "rsi": 38.286,
      "prior_high": 231.665
     },
@@ -10926,7 +10775,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "1.04倍（20日平均比）",
+      "value": "1.05倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -11849,7 +11698,7 @@
    "name": "Broadcom",
    "close": 300.86,
    "change_pct": -0.07,
-   "avg_turnover": 10496355443,
+   "avg_turnover": 10497748425,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -11861,7 +11710,7 @@
      "sma75": 349.5574,
      "ma_slope_pct": -1.3614,
      "deviation_pct": -8.364,
-     "volume_ratio": 1.0771,
+     "volume_ratio": 1.08,
      "rsi": 40.7546,
      "prior_high": 369.82
     },
@@ -18224,7 +18073,7 @@
    "name": "Coca-Cola Company (The)",
    "close": 97.59,
    "change_pct": -0.03,
-   "avg_turnover": 1983778144,
+   "avg_turnover": 1983878661,
    "liquid": true,
    "swing": {
     "candidate": true,
@@ -18236,7 +18085,7 @@
      "sma75": 91.0018,
      "ma_slope_pct": 0.7857,
      "deviation_pct": 1.8209,
-     "volume_ratio": 1.2472,
+     "volume_ratio": 1.2483,
      "rsi": 58.8805,
      "prior_high": 100.56
     },
@@ -18541,7 +18390,7 @@
    "name": "Coherent Corp.",
    "close": 196.19,
    "change_pct": -0.03,
-   "avg_turnover": 2218360067,
+   "avg_turnover": 2219516607,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -18553,7 +18402,7 @@
      "sma75": 265.9956,
      "ma_slope_pct": -3.1932,
      "deviation_pct": -7.2607,
-     "volume_ratio": 0.8711,
+     "volume_ratio": 0.8822,
      "rsi": 43.1131,
      "prior_high": 246.9
     },
@@ -18583,7 +18432,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.87倍（20日平均比）",
+      "value": "0.88倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -18696,7 +18545,7 @@
    "name": "Coinbase",
    "close": 103.72,
    "change_pct": 1.34,
-   "avg_turnover": 1236880987,
+   "avg_turnover": 1237241932,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -18708,7 +18557,7 @@
      "sma75": 164.1061,
      "ma_slope_pct": -9.3745,
      "deviation_pct": -22.8485,
-     "volume_ratio": 1.0412,
+     "volume_ratio": 1.0485,
      "rsi": 28.6812,
      "prior_high": 163.6
     },
@@ -18738,7 +18587,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "1.04倍（20日平均比）",
+      "value": "1.05倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -20302,7 +20151,7 @@
    "name": "Corning Inc.",
    "close": 100.24,
    "change_pct": -1.6,
-   "avg_turnover": 1157493448,
+   "avg_turnover": 1157604213,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -20314,7 +20163,7 @@
      "sma75": 139.882,
      "ma_slope_pct": -5.2114,
      "deviation_pct": -12.8031,
-     "volume_ratio": 0.8517,
+     "volume_ratio": 0.8538,
      "rsi": 38.4833,
      "prior_high": 132.9278
     },
@@ -20788,7 +20637,7 @@
    "name": "Costco",
    "close": 1086.81,
    "change_pct": -0.45,
-   "avg_turnover": 2791769656,
+   "avg_turnover": 2791769651,
    "liquid": true,
    "swing": {
     "candidate": true,
@@ -20796,7 +20645,7 @@
     "total": 6,
     "metrics": {
      "close": 1086.8101,
-     "sma25": 1030.9927,
+     "sma25": 1030.9926,
      "sma75": 950.1471,
      "ma_slope_pct": 2.2589,
      "deviation_pct": 5.4139,
@@ -21112,7 +20961,7 @@
    "name": "CrowdStrike",
    "close": 209.3,
    "change_pct": -0.74,
-   "avg_turnover": 2658224458,
+   "avg_turnover": 2658795847,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -21124,7 +20973,7 @@
      "sma75": 234.386,
      "ma_slope_pct": -1.0878,
      "deviation_pct": -11.1165,
-     "volume_ratio": 1.2701,
+     "volume_ratio": 1.2749,
      "rsi": 38.3128,
      "prior_high": 272.29
     },
@@ -22859,7 +22708,7 @@
    "name": "Dell Technologies",
    "close": 297.06,
    "change_pct": 0.6,
-   "avg_turnover": 3455541418,
+   "avg_turnover": 3458522415,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -22871,7 +22720,7 @@
      "sma75": 466.8575,
      "ma_slope_pct": -7.9682,
      "deviation_pct": -20.4475,
-     "volume_ratio": 2.88,
+     "volume_ratio": 2.9019,
      "rsi": 36.8733,
      "prior_high": 507.0
     },
@@ -22901,7 +22750,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": true,
-      "value": "2.88倍（20日平均比）",
+      "value": "2.90倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -32185,7 +32034,7 @@
    "name": "Ford Motor Company",
    "close": 12.17,
    "change_pct": 1.84,
-   "avg_turnover": 556369418,
+   "avg_turnover": 556376538,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -32197,7 +32046,7 @@
      "sma75": 12.6592,
      "ma_slope_pct": -0.688,
      "deviation_pct": 2.3475,
-     "volume_ratio": 1.0497,
+     "volume_ratio": 1.05,
      "rsi": 55.0312,
      "prior_high": 12.7059
     },
@@ -36989,7 +36838,7 @@
    "name": "Hewlett Packard Enterprise",
    "close": 40.82,
    "change_pct": 1.57,
-   "avg_turnover": 886312877,
+   "avg_turnover": 886486158,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -37001,7 +36850,7 @@
      "sma75": 56.2693,
      "ma_slope_pct": -5.2028,
      "deviation_pct": -18.1872,
-     "volume_ratio": 1.5149,
+     "volume_ratio": 1.5195,
      "rsi": 36.7522,
      "prior_high": 62.2
     },
@@ -37031,7 +36880,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": true,
-      "value": "1.51倍（20日平均比）",
+      "value": "1.52倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -38257,7 +38106,7 @@
    "name": "HP Inc.",
    "close": 31.15,
    "change_pct": 11.49,
-   "avg_turnover": 459503413,
+   "avg_turnover": 459559950,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -38269,7 +38118,7 @@
      "sma75": 30.7694,
      "ma_slope_pct": -1.3041,
      "deviation_pct": 4.3635,
-     "volume_ratio": 2.7158,
+     "volume_ratio": 2.7183,
      "rsi": 57.4544,
      "prior_high": 33.5
     },
@@ -38412,7 +38261,7 @@
    "name": "Hubbell Incorporated",
    "close": 428.74,
    "change_pct": 1.57,
-   "avg_turnover": 267961861,
+   "avg_turnover": 268005871,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -38424,7 +38273,7 @@
      "sma75": 455.4137,
      "ma_slope_pct": -1.8375,
      "deviation_pct": -1.0896,
-     "volume_ratio": 0.7792,
+     "volume_ratio": 0.7823,
      "rsi": 47.1816,
      "prior_high": 451.5
     },
@@ -40335,7 +40184,7 @@
    "name": "Intel",
    "close": 54.47,
    "change_pct": -0.6,
-   "avg_turnover": 9626694042,
+   "avg_turnover": 9628526413,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -40347,7 +40196,7 @@
      "sma75": 90.3712,
      "ma_slope_pct": -10.1878,
      "deviation_pct": -16.9381,
-     "volume_ratio": 0.808,
+     "volume_ratio": 0.8122,
      "rsi": 35.9261,
      "prior_high": 95.68
     },
@@ -45118,7 +44967,7 @@
    "name": "Lam Research",
    "close": 185.01,
    "change_pct": -5.68,
-   "avg_turnover": 3097823454,
+   "avg_turnover": 3098129646,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -45130,7 +44979,7 @@
      "sma75": 277.5277,
      "ma_slope_pct": -6.1413,
      "deviation_pct": -15.9293,
-     "volume_ratio": 1.5147,
+     "volume_ratio": 1.5171,
      "rsi": 35.9352,
      "prior_high": 260.58
     },
@@ -45160,7 +45009,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": true,
-      "value": "1.51倍（20日平均比）",
+      "value": "1.52倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -47055,7 +46904,7 @@
    "name": "Lumentum",
    "close": 476.58,
    "change_pct": -2.16,
-   "avg_turnover": 3930121252,
+   "avg_turnover": 3930926672,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -47067,7 +46916,7 @@
      "sma75": 835.7969,
      "ma_slope_pct": -9.5285,
      "deviation_pct": -26.0825,
-     "volume_ratio": 0.8438,
+     "volume_ratio": 0.849,
      "rsi": 35.2378,
      "prior_high": 978.4
     },
@@ -47097,7 +46946,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.84倍（20日平均比）",
+      "value": "0.85倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -48182,7 +48031,7 @@
    "name": "Marvell Technology",
    "close": 130.93,
    "change_pct": -0.49,
-   "avg_turnover": 5513270109,
+   "avg_turnover": 5514404617,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -48194,7 +48043,7 @@
      "sma75": 218.8387,
      "ma_slope_pct": -10.8949,
      "deviation_pct": -23.5272,
-     "volume_ratio": 0.8241,
+     "volume_ratio": 0.8291,
      "rsi": 35.1197,
      "prior_high": 253.66
     },
@@ -48224,7 +48073,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.82倍（20日平均比）",
+      "value": "0.83倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -49457,7 +49306,7 @@
    "name": "Meta Platforms",
    "close": 609.89,
    "change_pct": 3.4,
-   "avg_turnover": 11235668263,
+   "avg_turnover": 11237766284,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -49469,7 +49318,7 @@
      "sma75": 646.9377,
      "ma_slope_pct": -3.6693,
      "deviation_pct": -1.3766,
-     "volume_ratio": 0.9727,
+     "volume_ratio": 0.9763,
      "rsi": 45.7004,
      "prior_high": 648.45
     },
@@ -49499,7 +49348,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.97倍（20日平均比）",
+      "value": "0.98倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -50253,7 +50102,7 @@
    "name": "Micron Technology",
    "close": 601.25,
    "change_pct": -4.53,
-   "avg_turnover": 26694722009,
+   "avg_turnover": 26710306409,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -50265,7 +50114,7 @@
      "sma75": 915.4974,
      "ma_slope_pct": -6.2831,
      "deviation_pct": -22.5423,
-     "volume_ratio": 1.46,
+     "volume_ratio": 1.4744,
      "rsi": 35.6844,
      "prior_high": 990.0
     },
@@ -50295,7 +50144,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "1.46倍（20日平均比）",
+      "value": "1.47倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -50415,7 +50264,7 @@
    "name": "Microsoft",
    "close": 489.93,
    "change_pct": -1.25,
-   "avg_turnover": 15861249582,
+   "avg_turnover": 15861884042,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -50427,7 +50276,7 @@
      "sma75": 510.3159,
      "ma_slope_pct": -1.5217,
      "deviation_pct": -5.5137,
-     "volume_ratio": 0.8692,
+     "volume_ratio": 0.8701,
      "rsi": 38.9941,
      "prior_high": 558.072
     },
@@ -50725,7 +50574,7 @@
    "name": "Moderna",
    "close": 220.84,
    "change_pct": -2.88,
-   "avg_turnover": 2213587615,
+   "avg_turnover": 2213778642,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -50737,7 +50586,7 @@
      "sma75": 184.6682,
      "ma_slope_pct": -2.0176,
      "deviation_pct": -0.8481,
-     "volume_ratio": 0.6899,
+     "volume_ratio": 0.6917,
      "rsi": 51.1039,
      "prior_high": 280.8
     },
@@ -52500,7 +52349,7 @@
    "name": "Netflix",
    "close": 59.41,
    "change_pct": 0.92,
-   "avg_turnover": 2487861976,
+   "avg_turnover": 2488048820,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -52512,7 +52361,7 @@
      "sma75": 70.5056,
      "ma_slope_pct": -3.4252,
      "deviation_pct": -4.4837,
-     "volume_ratio": 1.1353,
+     "volume_ratio": 1.1369,
      "rsi": 38.783,
      "prior_high": 67.49
     },
@@ -52662,7 +52511,7 @@
    "name": "Newmont",
    "close": 101.44,
    "change_pct": 2.02,
-   "avg_turnover": 861866592,
+   "avg_turnover": 861972090,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -52674,7 +52523,7 @@
      "sma75": 117.747,
      "ma_slope_pct": -3.1355,
      "deviation_pct": -8.074,
-     "volume_ratio": 1.0237,
+     "volume_ratio": 1.0264,
      "rsi": 40.3346,
      "prior_high": 126.948
     },
@@ -52704,7 +52553,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "1.02倍（20日平均比）",
+      "value": "1.03倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -53310,7 +53159,7 @@
    "name": "Nike, Inc.",
    "close": 36.66,
    "change_pct": 2.55,
-   "avg_turnover": 970117606,
+   "avg_turnover": 970170397,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -53322,7 +53171,7 @@
      "sma75": 37.2924,
      "ma_slope_pct": -1.4157,
      "deviation_pct": -2.2952,
-     "volume_ratio": 1.0946,
+     "volume_ratio": 1.0957,
      "rsi": 49.4189,
      "prior_high": 41.1
     },
@@ -53352,7 +53201,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "1.09倍（20日平均比）",
+      "value": "1.10倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -54754,7 +54603,7 @@
    "name": "Nvidia",
    "close": 149.3,
    "change_pct": -3.91,
-   "avg_turnover": 57470528660,
+   "avg_turnover": 57494376350,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -54766,7 +54615,7 @@
      "sma75": 208.8994,
      "ma_slope_pct": -7.1009,
      "deviation_pct": -17.4598,
-     "volume_ratio": 1.0773,
+     "volume_ratio": 1.0868,
      "rsi": 37.4527,
      "prior_high": 219.99
     },
@@ -54796,7 +54645,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "1.08倍（20日平均比）",
+      "value": "1.09倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -56353,7 +56202,7 @@
    "name": "Oracle Corporation",
    "close": 103.88,
    "change_pct": -5.13,
-   "avg_turnover": 4855835414,
+   "avg_turnover": 4856702293,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -56365,7 +56214,7 @@
      "sma75": 136.1194,
      "ma_slope_pct": -3.6193,
      "deviation_pct": -14.2585,
-     "volume_ratio": 0.896,
+     "volume_ratio": 0.8999,
      "rsi": 37.7805,
      "prior_high": 148.48
     },
@@ -57001,7 +56850,7 @@
    "name": "Palantir Technologies",
    "close": 163.59,
    "change_pct": 1.5,
-   "avg_turnover": 4289471332,
+   "avg_turnover": 4290117513,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -57013,7 +56862,7 @@
      "sma75": 180.1105,
      "ma_slope_pct": -4.2975,
      "deviation_pct": -5.1887,
-     "volume_ratio": 0.8299,
+     "volume_ratio": 0.8329,
      "rsi": 45.1317,
      "prior_high": 198.74
     },
@@ -57163,7 +57012,7 @@
    "name": "Palo Alto Networks",
    "close": 356.14,
    "change_pct": 0.89,
-   "avg_turnover": 2795824744,
+   "avg_turnover": 2796417718,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -57175,7 +57024,7 @@
      "sma75": 363.7557,
      "ma_slope_pct": 0.2399,
      "deviation_pct": 2.1447,
-     "volume_ratio": 0.8238,
+     "volume_ratio": 0.8279,
      "rsi": 52.6572,
      "prior_high": 406.88
     },
@@ -57205,7 +57054,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.82倍（20日平均比）",
+      "value": "0.83倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -58114,7 +57963,7 @@
    "name": "Pfizer",
    "close": 28.46,
    "change_pct": 0.0,
-   "avg_turnover": 1110408966,
+   "avg_turnover": 1110461901,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -58126,7 +57975,7 @@
      "sma75": 28.18,
      "ma_slope_pct": -0.9578,
      "deviation_pct": -2.0421,
-     "volume_ratio": 0.7092,
+     "volume_ratio": 0.7102,
      "rsi": 48.0824,
      "prior_high": 30.9876
     },
@@ -60988,7 +60837,7 @@
    "name": "Qualcomm",
    "close": 168.66,
    "change_pct": 2.24,
-   "avg_turnover": 2589603197,
+   "avg_turnover": 2589814022,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -61000,7 +60849,7 @@
      "sma75": 173.5365,
      "ma_slope_pct": -1.5484,
      "deviation_pct": -0.6637,
-     "volume_ratio": 0.9117,
+     "volume_ratio": 0.9133,
      "rsi": 49.6123,
      "prior_high": 185.59
     },
@@ -62749,7 +62598,7 @@
    "name": "ResMed",
    "close": 245.7,
    "change_pct": 0.93,
-   "avg_turnover": 347342343,
+   "avg_turnover": 347633497,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -62761,7 +62610,7 @@
      "sma75": 232.0337,
      "ma_slope_pct": -0.1376,
      "deviation_pct": 2.1291,
-     "volume_ratio": 0.8023,
+     "volume_ratio": 0.8185,
      "rsi": 58.6585,
      "prior_high": 253.5665
     },
@@ -62791,7 +62640,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.80倍（20日平均比）",
+      "value": "0.82倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -63073,7 +62922,7 @@
    "name": "Robinhood Markets",
    "close": 65.78,
    "change_pct": 0.2,
-   "avg_turnover": 1519202735,
+   "avg_turnover": 1519815476,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -63085,7 +62934,7 @@
      "sma75": 99.4357,
      "ma_slope_pct": -7.7876,
      "deviation_pct": -18.2561,
-     "volume_ratio": 0.9603,
+     "volume_ratio": 0.9692,
      "rsi": 30.6222,
      "prior_high": 92.6
     },
@@ -63115,7 +62964,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.96倍（20日平均比）",
+      "value": "0.97倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -67912,7 +67761,7 @@
    "name": "Supermicro",
    "close": 23.31,
    "change_pct": 3.05,
-   "avg_turnover": 1349607906,
+   "avg_turnover": 1349828419,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -67924,7 +67773,7 @@
      "sma75": 35.3917,
      "ma_slope_pct": -6.6464,
      "deviation_pct": -18.5045,
-     "volume_ratio": 0.8836,
+     "volume_ratio": 0.8875,
      "rsi": 36.6873,
      "prior_high": 36.4
     },
@@ -67954,7 +67803,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": false,
-      "value": "0.88倍（20日平均比）",
+      "value": "0.89倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -69990,7 +69839,7 @@
    "name": "Tesla, Inc.",
    "close": 380.14,
    "change_pct": -1.18,
-   "avg_turnover": 13477463629,
+   "avg_turnover": 13479856610,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -70002,7 +69851,7 @@
      "sma75": 369.3617,
      "ma_slope_pct": 0.2624,
      "deviation_pct": -0.9335,
-     "volume_ratio": 0.9771,
+     "volume_ratio": 0.9807,
      "rsi": 50.3074,
      "prior_high": 414.23
     },
@@ -70482,7 +70331,7 @@
      "ma_slope_pct": 1.1077,
      "deviation_pct": -2.4131,
      "volume_ratio": 1.3805,
-     "rsi": 47.0618,
+     "rsi": 47.0619,
      "prior_high": 89.9
     },
     "checks": [
@@ -72688,7 +72537,7 @@
    "name": "Uber",
    "close": 66.35,
    "change_pct": 2.55,
-   "avg_turnover": 1332527178,
+   "avg_turnover": 1332561680,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -72700,7 +72549,7 @@
      "sma75": 70.8933,
      "ma_slope_pct": -1.3998,
      "deviation_pct": -1.6717,
-     "volume_ratio": 1.0089,
+     "volume_ratio": 1.0094,
      "rsi": 45.3386,
      "prior_high": 72.5
     },
@@ -75400,7 +75249,7 @@
    "name": "Vertiv",
    "close": 173.37,
    "change_pct": -0.26,
-   "avg_turnover": 1598828626,
+   "avg_turnover": 1598930914,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -75412,7 +75261,7 @@
      "sma75": 234.3466,
      "ma_slope_pct": -3.0536,
      "deviation_pct": -13.5511,
-     "volume_ratio": 0.8361,
+     "volume_ratio": 0.8374,
      "rsi": 40.0176,
      "prior_high": 254.5933
     },
@@ -76992,7 +76841,7 @@
    "name": "Walmart",
    "close": 131.94,
    "change_pct": -0.28,
-   "avg_turnover": 3180337713,
+   "avg_turnover": 3180446564,
    "liquid": true,
    "swing": {
     "candidate": true,
@@ -77004,7 +76853,7 @@
      "sma75": 114.6892,
      "ma_slope_pct": 1.8411,
      "deviation_pct": 5.0016,
-     "volume_ratio": 0.9619,
+     "volume_ratio": 0.9625,
      "rsi": 70.1981,
      "prior_high": 132.42
     },
@@ -77154,7 +77003,7 @@
    "name": "Walt Disney Company (The)",
    "close": 125.6,
    "change_pct": 2.52,
-   "avg_turnover": 1277305313,
+   "avg_turnover": 1277373137,
    "liquid": true,
    "swing": {
     "candidate": true,
@@ -77166,7 +77015,7 @@
      "sma75": 109.924,
      "ma_slope_pct": 1.8238,
      "deviation_pct": 7.6386,
-     "volume_ratio": 1.5942,
+     "volume_ratio": 1.5952,
      "rsi": 68.8596,
      "prior_high": 123.37
     },
@@ -77196,7 +77045,7 @@
       "key": "volume_surge",
       "label": "出来高急増",
       "passed": true,
-      "value": "1.59倍（20日平均比）",
+      "value": "1.60倍（20日平均比）",
       "threshold": "≥ 1.5倍"
      },
      {
@@ -78281,7 +78130,7 @@
    "name": "Western Digital",
    "close": 272.45,
    "change_pct": -0.55,
-   "avg_turnover": 2342287673,
+   "avg_turnover": 2342530153,
    "liquid": true,
    "swing": {
     "candidate": false,
@@ -78293,7 +78142,7 @@
      "sma75": 397.041,
      "ma_slope_pct": -4.619,
      "deviation_pct": -13.641,
-     "volume_ratio": 0.8215,
+     "volume_ratio": 0.8238,
      "rsi": 39.7347,
      "prior_high": 402.23
     },

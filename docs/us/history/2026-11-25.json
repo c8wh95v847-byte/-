@@ -1,7 +1,7 @@
 {
  "market": "US",
  "as_of": "2026-11-25",
- "generated_at": "2026-11-26T04:14:47+00:00",
+ "generated_at": "2026-11-27T04:21:31+00:00",
  "providers": {
   "price": "yfinance",
   "fundamentals": "yfinance"
@@ -90,7 +90,7 @@
      "key": "volume_surge",
      "label": "出来高急増",
      "passed": true,
-     "value": "1.59倍（20日平均比）",
+     "value": "1.60倍（20日平均比）",
      "threshold": "≥ 1.5倍"
     },
     {
